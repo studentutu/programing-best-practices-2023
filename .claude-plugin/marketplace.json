@@ -6,11 +6,12 @@
   },
   "metadata": {
     "description": "Curated coding standards, style guides, and best practices across 30+ programming languages and frameworks",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "pluginRoot": "./"
   },
   "plugins": [
     {
-      "name": "programming-best-practices",
+      "name": "best-practices-kb",
       "source": "./",
       "description": "Auto-invoked skills and slash commands for coding standards, style guides, and best practices across 30+ languages. References resources from Airbnb, Google, Uber, OWASP, and more.",
       "version": "1.0.0",
@@ -27,7 +28,11 @@
         "clean-code",
         "coding-standards"
       ],
-      "category": "code-quality"
+      "category": "code-quality",
+      "strict": false,
+      "commands": [
+        "./commands/"
+      ]
     }
   ]
 }

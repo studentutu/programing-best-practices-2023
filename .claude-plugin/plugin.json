@@ -1,5 +1,5 @@
 {
-  "name": "programming-best-practices",
+  "name": "best-practices-kb",
   "description": "Curated coding standards, style guides, and best practices across 30+ programming languages and frameworks. Provides instant access to industry-leading resources from Airbnb, Google, Uber, and more.",
   "version": "1.0.0",
   "author": {
@@ -7,9 +7,6 @@
     "url": "https://github.com/dereknguyen269"
   },
   "homepage": "https://github.com/dereknguyen269/programing-best-practices",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dereknguyen269/programing-best-practices.git"
-  },
+  "repository": "https://github.com/dereknguyen269/programing-best-practices",
   "license": "CC0-1.0"
 }
