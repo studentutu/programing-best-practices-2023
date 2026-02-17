@@ -303,8 +303,11 @@ Download the templates from the [`/templates`](./templates) directory and custom
 Install directly as a Claude Code plugin for automatic best practices guidance:
 
 ```bash
-# Install the plugin
-/plugin install dereknguyen269/programing-best-practices
+# Step 1: Add the marketplace
+/plugin marketplace add dereknguyen269/programing-best-practices
+
+# Step 2: Install the plugin
+/plugin install programming-best-practices@programming-best-practices
 ```
 
 Once installed, you get:
