@@ -38,7 +38,8 @@ programing-best-practices/
 This repository is a Claude Code plugin. Install it with:
 
 ```
-/plugin install dereknguyen269/programing-best-practices
+/plugin marketplace add dereknguyen269/programing-best-practices
+/plugin install programming-best-practices@programming-best-practices
 ```
 
 ### Skills (Auto-Invoked)
