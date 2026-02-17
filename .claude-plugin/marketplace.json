@@ -1,0 +1,33 @@
+{
+  "name": "programming-best-practices",
+  "owner": {
+    "name": "Derek Nguyen",
+    "email": "dereknguyen269@gmail.com"
+  },
+  "metadata": {
+    "description": "Curated coding standards, style guides, and best practices across 30+ programming languages and frameworks",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "programming-best-practices",
+      "source": "./",
+      "description": "Auto-invoked skills and slash commands for coding standards, style guides, and best practices across 30+ languages. References resources from Airbnb, Google, Uber, OWASP, and more.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Derek Nguyen"
+      },
+      "homepage": "https://github.com/dereknguyen269/programing-best-practices",
+      "license": "CC0-1.0",
+      "keywords": [
+        "best-practices",
+        "style-guide",
+        "code-review",
+        "security",
+        "clean-code",
+        "coding-standards"
+      ],
+      "category": "code-quality"
+    }
+  ]
+}
