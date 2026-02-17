@@ -164,8 +164,8 @@ The repository is now ready! Your AI coding editor will automatically detect:
 
 | AI Editor | Config File | Auto-Detected |
 |-----------|-------------|---------------|
-| **Claude Code** | `CLAUDE.md` | ✅ |
-| **Kiro** | `.kiro/project.md` | ✅ |
+| **Claude Code** | `CLAUDE.md` + `skills/best-practices/` | ✅ |
+| **Kiro** | `.kiro/steering/best-practices/` | ✅ |
 | **Antigravity** | `.agent/instructions.md` | ✅ |
 | **Cursor** | `.cursorrules` | ✅ |
 | **Windsurf** | `.windsurfrules` | ✅ |
@@ -184,10 +184,10 @@ programing-best-practices/
 ├── .claude-plugin/             # 🔌 Claude Code plugin manifest
 │   └── plugin.json
 ├── skills/                     # 🧠 Claude Code auto-invoked skills
-│   ├── best-practices/         # Language & framework best practices
-│   │   └── SKILL.md
-│   └── security-review/        # Security audit skill
-│       └── SKILL.md
+│   └── best-practices/         # 🔍 BM25-powered best practices search
+│       ├── SKILL.md            # Skill instructions
+│       ├── data/               # CSV databases (resources, languages, categories)
+│       └── scripts/            # Search engine (core.py, search.py, generate_csv.py)
 ├── commands/                   # ⚡ Claude Code slash commands
 │   ├── best-practices.md       # /best-practices [language]
 │   ├── review-code.md          # /review-code
@@ -196,7 +196,9 @@ programing-best-practices/
 │   ├── config.json
 │   └── instructions.md
 ├── .kiro/                      # Kiro config
-│   └── project.md
+│   ├── project.md
+│   └── steering/               # Kiro steering files
+│       └── best-practices/     # 🔍 BM25-powered search (installed via install-skill.py)
 ├── .cursorrules                # Cursor AI rules
 ├── .windsurfrules              # Windsurf AI rules
 ├── content/                    # � Crawled content (after running crawler)
@@ -205,15 +207,13 @@ programing-best-practices/
 │   ├── backend_development/    # Content organized by category
 │   ├── frontend_development/
 │   └── ...
-├── summaries/                  # 📝 AI-ready summaries (after generate_summaries.py)
-│   ├── SUMMARY.md              # Master overview
-│   └── [category].md           # Category summaries
 ├── scripts/
 │   ├── crawler/                # 🕷️ Crawler tools
 │   │   ├── crawl.py            # Main crawler
 │   │   ├── search.py           # Search tool
 │   │   ├── generate_summaries.py
 │   │   └── requirements.txt
+│   ├── install-skill.py        # 🔧 Install skill to any project (Claude/Kiro)
 │   └── setup-kb.sh             # Quick setup script
 ├── templates/                  # 📋 Templates for your projects
 │   ├── CLAUDE.template.md
@@ -239,6 +239,21 @@ python3 scripts/crawler/search.py "best practices" --category python
 
 # Get results as JSON
 python3 scripts/crawler/search.py "security" --json
+```
+
+### BM25-Powered Search (via Skill)
+
+If you've installed the best-practices skill (via `install-skill.py`), you get a more powerful BM25 search:
+
+```bash
+# Full recommendation (resources + deep content)
+python3 skills/best-practices/scripts/search.py "ruby rails security" --recommend
+
+# Search by language overview
+python3 skills/best-practices/scripts/search.py "go" --domain language
+
+# Deep search within crawled markdown files
+python3 skills/best-practices/scripts/search.py "design patterns" --content --lang python
 ```
 
 ---
@@ -320,9 +335,54 @@ Once installed, you get:
 | `/programming-best-practices:review-code` | Review current code against industry standards |
 | `/programming-best-practices:setup-standards [stack]` | Generate linter/formatter configs for your stack |
 
-The plugin includes two skills that Claude invokes automatically:
+The plugin includes a skill that Claude invokes automatically:
 - **best-practices** — Activated when writing or reviewing code in any of 30+ languages
-- **security-review** — Activated when reviewing code for vulnerabilities or security concerns
+
+### Option 5: Install Skill with Auto-Crawl (Recommended for Kiro & Claude Code)
+
+Install the BM25-powered best practices skill directly into any project. The installer automatically crawls content, generates searchable CSV databases, and copies the skill:
+
+```bash
+# Full install — crawl all 150+ resources + generate CSVs + install skill
+python3 scripts/install-skill.py ~/Projects/my-app --mode both
+
+# Install as Claude Code skill only
+python3 scripts/install-skill.py ~/Projects/my-app --mode claude
+
+# Install as Kiro steering only
+python3 scripts/install-skill.py ~/Projects/my-app --mode kiro
+
+# Quick test — crawl only 20 resources
+python3 scripts/install-skill.py ~/Projects/my-app --mode both --crawl-limit 20
+
+# Skip crawl — use existing content/ data
+python3 scripts/install-skill.py ~/Projects/my-app --mode both --skip-crawl
+
+# Crawl specific category only
+python3 scripts/install-skill.py ~/Projects/my-app --mode both --crawl-category python
+```
+
+The installer runs a 4-step pipeline:
+
+| Step | What It Does | Time |
+|------|-------------|------|
+| **1. Dependencies** | Installs crawler requirements (requests, beautifulsoup4, etc.) | ~10s |
+| **2. Crawl** | Fetches 150+ resources from README.md links | ~2-10 min |
+| **3. Generate CSVs** | Builds BM25-searchable databases (resources, languages, categories) | ~5s |
+| **4. Install** | Copies skill with correct paths to target project | ~1s |
+
+Once installed, your AI editor can search best practices:
+
+```bash
+# Search for recommendations
+python3 skills/best-practices/scripts/search.py "python style guide" --recommend
+
+# Search by domain
+python3 skills/best-practices/scripts/search.py "react" --domain language
+
+# Deep search in crawled content
+python3 skills/best-practices/scripts/search.py "clean code" --content --lang javascript
+```
 
 ---
 
@@ -1031,13 +1091,6 @@ See our [Contributing Guidelines](contributing.md) to add your favorite resource
 
 ### ☕ Sponsor
 If this project has saved you time or helped your career, consider [sponsoring](https://github.com/sponsors/dereknguyen269) to support continued maintenance and updates.
-
----
-
-# �📜 License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-This project is licensed under **Creative Commons Zero v1.0 Universal (CC0 1.0)** — *Public Domain Dedication*.
 
 ---
 

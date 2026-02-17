@@ -1,0 +1,2739 @@
+ID,Title,Language,Domain,Category,Subcategory,Authority,URL,Keywords,Summary
+155e25eed26d,OWASP Top 10 (2024),Security,general,Security,DevSecOps & Security Best Practices,standard,https://owasp.org/www-project-top-ten/,"best, devsecops, owasp, practices, rest, security, top","OWASP Top 10 (2024)
+
+> Source: https://owasp.org/www-project-top-ten/
+
+OWASP Top Ten Web Application Security Risks
+
+The most current released version is the OWASP Top Ten 2025.
+
+Previous versions are available at OWASP Top Ten 2021 and OWASP Top 10 2017 (PDF). Older versiona are available in the Github repo.
+
+The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web..."
+3c4ee2506a66,12 Factors for Building Cloud-Native Apps,Microservices,cloud,Cloud & Deployment,Microservices & Cloud-Native Best Practices,standard,https://12factor.net/,"apps, architecture, best, building, cloud, database, deployment, factors, for, microservices, native, practices","12 Factors for Building Cloud-Native Apps
+
+> Source: https://12factor.net/
+
+Introduction
+
+In the modern era, software is commonly delivered as a service: called *web apps*, or *software-as-a-service*. The twelve-factor app is a methodology for building software-as-a-service apps that:
+
+* Use **declarative** formats for setup automation, to minimize time and cost for new developers joining the project;
+* Have a **clean contract** with the underlying operating system, offering **maximum..."
+4ea29adcea71,System Design 101,Featured Resources,general,Featured Resources,Must-Read Guides,open-source,https://github.com/ByteByteGoHq/system-design-101,"api, design, featured, guides, must, read, resources, system, websocket","System Design 101
+
+> Source: https://github.com/ByteByteGoHq/system-design-101
+
+   
+
+  【
+  
+    👨🏻‍💻 YouTube
+   | 
+  
+    📮 Newsletter
+   】
+
+System Design 101
+
+Explain complex systems using visuals and simple terms. 
+
+Whether you're preparing for a System Design Interview or you simply want to understand how systems work beneath the surface, we hope this repository will help you achieve that.
+
+Table of Contents
+
+* API and Web Development
+  * Short/long polling, SSE, WebSocket
+  * Load Balancer..."
+160451e7a95a,Clean Code JavaScript,JavaScript,frontend,Core Technologies,JavaScript Best Practices,open-source,https://github.com/ryanmcdermott/clean-code-javascript,"architecture, best, clean, clean code, code, core, ecmascript, es6, javascript, js, node, practices, style guide, technologies, testing","Clean Code JavaScript
+
+> Source: https://github.com/ryanmcdermott/clean-code-javascript
+
+clean-code-javascript
+
+Table of Contents
+
+1. Introduction
+2. Variables
+3. Functions
+4. Objects and Data Structures
+5. Classes
+6. SOLID
+7. Testing
+8. Concurrency
+9. Error Handling
+10. Formatting
+11. Comments
+12. Translation
+
+Introduction
+
+!Humorous image of software quality estimation as a count of how many expletives
+you shout when reading code
+
+Software engineering principles, from Robert C. Martin's..."
+264a840f9cbd,Airbnb JavaScript Style Guide,JavaScript,frontend,Core Technologies,JavaScript Best Practices,industry-leader,https://github.com/airbnb/javascript,"airbnb, best, core, ecmascript, es6, guide, javascript, js, node, practices, style, style guide, technologies","Airbnb JavaScript Style Guide
+
+> Source: https://github.com/airbnb/javascript
+
+Airbnb JavaScript Style Guide() {
+
+*A mostly reasonable approach to JavaScript*
+
+> **Note**: this guide assumes you are using Babel, and requires that you use babel-preset-airbnb or the equivalent. It also assumes you are installing shims/polyfills in your app, with airbnb-browser-shims or the..."
+55fd282786db,Dropbox (S)CSS Style Guide,CSS,frontend,Core Technologies,CSS Best Practices,open-source,https://github.com/dropbox/css-style-guide,"best, core, css, dropbox, guide, practices, style, style guide, technologies","Dropbox (S)CSS Style Guide
+
+> Source: https://github.com/dropbox/css-style-guide
+
+Dropbox (S)CSS Style Guide
+
+> “Every line of code should appear to be written by a single person, no matter the number of contributors.” —@mdo
+
+General
+Don’ts
+
+- Avoid using HTML tags in CSS selectors
+  - E.g. Prefer `.o-modal {}` over `div.o-modal {}`
+  - Always prefer using a class over HTML tags (with some exceptions like CSS resets)
+- Don't use ids in selectors
+  - `#header` is overly specific compared to, for..."
+bd059ebcf1c7,Design Resources for Developers,Get Involved,general,Get Involved,Contributors,open-source,https://github.com/bradtraversy/design-resources-for-developers,"contributors, design, developers, for, get, involved, resources, style guide","Design Resources for Developers
+
+> Source: https://github.com/bradtraversy/design-resources-for-developers
+
+   Special thanks to:
+   
+   
+   
+      
+   
+
+Warp, the intelligent terminal for developers
+Available for MacOS, Linux, & Windows
+
+Please read `contributing guidelines` before submitting new resources.
+
+Table of Contents
+
+- UI Graphics
+- Fonts
+- Colors
+- Icons
+- Logos
+- Favicons
+- Icon Fonts
+- Stock Photos
+- Stock Videos
+- Stock Music & Sound Effects
+- Vectors & Clip Art
+- Product & Image..."
+07ca7c7023e9,22 C# Best Practices,C/C++,systems,Enterprise & JVM Languages,C Best Practices,community,https://code-maze.com/csharp-22-best-practices/,"architecture, best, best practices, enterprise, jvm, languages, practices","22 C# Best Practices
+
+> Source: https://code-maze.com/csharp-22-best-practices/
+
+22 C# Best Practices
+
+Posted by Code Maze | Updated Date Oct 4, 2023 | 6
+
+[](https://courses.code-maze.com/courses/?source=tbanner&p=csharp-22-best-practices/)
+
+Ready to take your skills to the next level? Jump into our high-impact courses in web development and software architecture, all with a focus on mastering the .NET/C# framework. Whether you're **building sleek web applications or designing scalable software..."
+07d8bef094e7,Uber Go Style Guide,Featured Resources,general,Featured Resources,Language-Specific Gems,industry-leader,https://github.com/uber-go/guide/blob/master/style.md,"featured, gems, go, golang, guide, language, resources, specific, style, style guide, uber","Uber Go Style Guide
+
+> Source: https://github.com/uber-go/guide/blob/master/style.md
+
+uber-go 
+/
+**guide**
+Public
+
+* Notifications You must be signed in to change notification settings
+* Fork
+  1.8k
+* Star
+   17.3k"
+15916ee7a0c1,Angular.js Advanced Design Patterns,Angular,frontend,Frameworks & Libraries,Angular Best Practices,open-source,https://github.com/trochette/Angular-Design-Patterns-Best-Practices,"advanced, angular, angular.js, angularjs, best, best practices, design, design patterns, frameworks, libraries, ng, patterns, practices","Angular.js Advanced Design Patterns
+
+> Source: https://github.com/trochette/Angular-Design-Patterns-Best-Practices
+
+Angular.js: Advanced Design Patterns and Best Practices
+
+Source code and examples from the talks given at MagmaConf 2013 and OpenCode. 
+
+Content
+
+* Tip #1: Code Organization
+* Tip #2: Keep controllers simple
+* Tip #3: Business logic belongs to models
+* Tip #4: Create facade to interact with servers
+* Tip #5: Leverage providers configuration
+* Tip #6: Share a Notifications..."
+9cf486eb6025,Best Practices for Coding with AI (2024),AI Tools for Developers,general,AI Tools for Developers,,community,https://blog.codacy.com/best-practices-for-coding-with-ai,"ai, api, best, best practices, coding, developers, for, practices, tools, with","Best Practices for Coding with AI (2024)
+
+> Source: https://blog.codacy.com/best-practices-for-coding-with-ai
+
+Home All Posts Best Practices for Coding with AI in 2024)
+
+Best Practices for Coding with AI in 2024
+
+21/05/2024
+
+In this article:
+
+Subscribe to our blog:
+
+Share:
+
+Codacy
+
+11 mins read
+
+Developers are adopting coding tools powered by artificial intelligence (AI) at a rapid pace. According to our 2024 State of Software Quality survey, 64% of developers have already integrated AI into..."
+a6d0df1d7bce,Google HTML/CSS Style Guide,Featured Resources,general,Featured Resources,Language-Specific Gems,industry-leader,https://google.github.io/styleguide/htmlcssguide.html,"api, css, featured, gems, google, guide, html, language, resources, specific, style, style guide","Google HTML/CSS Style Guide
+
+> Source: https://google.github.io/styleguide/htmlcssguide.html
+
+Google HTML/CSS Style Guide
+
+Background
+
+This document defines formatting and style rules for HTML and CSS. It aims at
+improving collaboration, code quality, and enabling supporting infrastructure.
+It applies to raw, working files that use HTML and CSS, including Sass and GSS
+files. Tools are free to obfuscate, minify, and compile as long as the general
+code quality is maintained.
+
+General
+
+General..."
+0896253db28d,rails_best_practices,Ruby on Rails,backend,Web Backend,Rails Best Practices,open-source,https://github.com/flyerhzm/rails_best_practices,"backend, best, practices, rails, rb, ror, ruby, web","rails_best_practices
+
+> Source: https://github.com/flyerhzm/rails_best_practices
+
+rails_best_practices
+
+[](http://badge.fury.io/rb/rails_best_practices)
+[](https://github.com/flyerhzm/rails_best_practices/actions/workflows/main.yml)
+[](https://coveralls.io/r/railsbp/rails_best_practices)
+[](https://awesomecode.io/repos/flyerhzm/rails_best_practices)
+
+rails_best_practices is a code metric tool to check the quality of Rails code.
+
+It supports the following ORM/ODMs:
+
+* activerecord
+* mongoid
+*..."
+7dfb78ff84dc,CSS Coding Standards & Best Practices,CSS,frontend,Core Technologies,CSS Best Practices,open-source,https://github.com/stevekwan/best-practices/blob/master/css/best-practices.md,"best, best practices, coding, core, css, practices, standards, technologies","CSS Coding Standards & Best Practices
+
+> Source: https://github.com/stevekwan/best-practices/blob/master/css/best-practices.md
+
+stevekwan 
+/
+**best-practices**
+Public
+
+* Notifications You must be signed in to change notification settings
+* Fork
+  163
+* Star
+   1.7k"
+7e3245e9eb6b,Angular 2 Style Guide,Angular,frontend,Frameworks & Libraries,Angular Best Practices,open-source,https://github.com/mgechev/angular2-style-guide,"angular, angularjs, best, best practices, frameworks, guide, libraries, ng, practices, style, style guide","Angular 2 Style Guide
+
+> Source: https://github.com/mgechev/angular2-style-guide
+
+Deprecated
+
+Angular 2 Style Guide
+
+**Official style guide**
+
+Together with the Angular core team and John Papa, we're working on an official style guide which incorporates all the best practices from:
+
+- Practices discovered during the internal usage of Angular 2 in Google.
+- The previous version of this style guide, which can be found here.
+- John Papa's AngularJS 1.x and Angular 2 style guides.
+
+The previous..."
+d7335541764e,Dart & Flutter Best Practices,Dart Best Practices,general,Dart Best Practices,,community,https://lazebny.io/flutter-best-practices/,"best, best practices, dart, flutter, practices, rest","Dart & Flutter Best Practices
+
+> Source: https://lazebny.io/flutter-best-practices/
+
+In this article I will share with you all the best practices with Dart & Flutter. In retrospect, I would have been very happy to have such a source of knowledge. Funny thing: it gets updated **frequently** when I remember something interesting.
+
+Flutter Best Practices
+
+Flutter is a great framework for building **truly** cross-platform applications. It is powerful and well organized by default, but there are..."
+895071a713ee,The Book of Secret Knowledge,Get Involved,general,Get Involved,Contributors,open-source,https://github.com/trimstray/the-book-of-secret-knowledge,"book, contributors, devops, get, involved, knowledge, of, rest, secret, security, the","The Book of Secret Knowledge
+
+> Source: https://github.com/trimstray/the-book-of-secret-knowledge
+
+  
+    
+  
+
+""Knowledge is powerful, be careful how you use it!""
+
+A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more.
+
+  
+    
+  
+  
+    
+  
+
+****
+
+:notebook_with_decorative_cover: &nbsp;What is it?
+
+This repository is a collection of various materials and tools that I use every day in my work. It contains a lot of useful information gathered in..."
+f21a4cb22374,Go Best Practices,Go,backend,Functional & Specialized,Go Golang Best Practices,open-source,https://github.com/mehrdadrad/GoBestPractices,"best, best practices, functional, go, golang, practices, specialized","Go Best Practices
+
+> Source: https://github.com/mehrdadrad/GoBestPractices
+
+Go Best Practices 
+
+I've started to write down sample Go codes that will be helpful in different cases.
+
+===========
+Contribute 
+Welcomes any kind of contribution, please follow the next steps:
+
+- Fork the project on github.com.
+- Create a new branch.
+- Commit changes to the new branch.
+- Send a pull request."
+d3e1ab41cb39,Best Practices for Clean React/Next.js Projects,Next.js,frontend,Frameworks & Libraries,Nextjs Best Practices,community,https://blogs.perficient.com/2023/04/25/best-practices-for-building-and-sustaining-a-clean-react-next-js-project/,"best, best practices, clean, for, frameworks, jsx, libraries, next.js, nextjs, practices, projects, react, reactjs","Best Practices for Clean React/Next.js Projects
+
+> Source: https://blogs.perficient.com/2023/04/25/best-practices-for-building-and-sustaining-a-clean-react-next-js-project/
+
+Through my experience building and maintaining a sizable React/Next.js application, I have gained valuable insights applicable to projects. The most crucial aspect of any application is delivering a product that boasts exceptional user experience, speed, and seamless usability. It should be scalable and sustainable.
+
+I make..."
+8b0371c7fb33,AI Tools for Developers: 5 Types of Tools & How to Choose,AI Tools for Developers,general,AI Tools for Developers,,community,https://swimm.io/learn/ai-tools-for-developers/ai-tools-for-developers-5-types-of-tools-and-how-to-choose,"ai, choose, developers, for, how, of, to, tools, types","AI Tools for Developers: 5 Types of Tools & How to Choose
+
+> Source: https://swimm.io/learn/ai-tools-for-developers/ai-tools-for-developers-5-types-of-tools-and-how-to-choose
+
+All posts
+
+AI Tools for Developers
+
+AI Tools for Developers: 5 Types of Tools and How to Choose
+
+Swimm Team 
+| 18 Sep 2023
+
+7 min read
+
+Link copied
+
+On this page:
+
+* The Rise of AI in Software Development
+* Types of AI Tools for Developers
+* AI Tools for Software Development: Avoiding Common Pitfalls
+
+Related..."
+085e33824b12,Google CSS Style Guide,CSS,frontend,Core Technologies,CSS Best Practices,industry-leader,https://google.github.io/styleguide/htmlcssguide.html#CSS,"api, best, core, css, google, guide, practices, style, style guide, technologies","Google CSS Style Guide
+
+> Source: https://google.github.io/styleguide/htmlcssguide.html#CSS
+
+Google HTML/CSS Style Guide
+
+Background
+
+This document defines formatting and style rules for HTML and CSS. It aims at
+improving collaboration, code quality, and enabling supporting infrastructure.
+It applies to raw, working files that use HTML and CSS, including Sass and GSS
+files. Tools are free to obfuscate, minify, and compile as long as the general
+code quality is maintained.
+
+General
+
+General..."
+8dd62093d1a9,Performance Best Practices,Dart Best Practices,general,Dart Best Practices,,community,https://docs.flutter.dev/perf/best-practices,"best, best practices, dart, performance, practices","Performance Best Practices
+
+> Source: https://docs.flutter.dev/perf/best-practices
+
+Generally, Flutter applications are performant by default,
+so you only need to avoid common pitfalls to get excellent
+performance. These best practice recommendations will help you
+write the most performant Flutter app possible.
+
+How do you design a Flutter app to most efficiently
+render your scenes? In particular, how do you ensure
+that the painting code generated by the
+framework is as efficient as..."
+3a663d3ca51b,RisingStack Node.js Style Guide,Node.js,backend,Web Backend,Nodejs Best Practices,open-source,https://github.com/RisingStack/node-style-guide,"backend, best, guide, node.js, nodejs, practices, risingstack, style, style guide, web","RisingStack Node.js Style Guide
+
+> Source: https://github.com/RisingStack/node-style-guide
+
+Depraction notice
+
+We are moving / moved our projects to use Standard - check it out!
+
+RisingStack Node.js Style Guide() {
+
+Most of the content is taken from the Airbnb styleguide
+
+Heavily inspired by them as well:
+- @caolan's Node.js styleguide
+- @felixge's Node.js styleguide
+
+Table of Contents
+
+  1. Types
+  1. Objects
+  1. Arrays
+  1. Strings
+  1. Functions
+  1. Properties
+  1. Variables
+  1. Requires
+..."
+3c010e64c50d,Go Style Guide,Go,backend,Functional & Specialized,Go Golang Best Practices,open-source,https://github.com/AgtLucas/go-style-guide,"best, functional, go, golang, guide, practices, rest, specialized, style, style guide","Go Style Guide
+
+> Source: https://github.com/AgtLucas/go-style-guide
+
+> This is a mirror for https://code.google.com/p/go-wiki/wiki/Style - I prefer reading documentation on Github.
+
+Go Style Guide
+
+This was a collection of notes maintained by Go code reviewers within Google over the course of 3+ years. When we realized the majority of the notes weren't Google-specific, we moved them here.
+
+You can view this as a supplement to http://golang.org/doc/effective_go.html.
+
+Please discuss changes..."
+b167c6138d18,Awesome AI-Powered Developer Tools,AI Tools for Developers,general,AI Tools for Developers,,open-source,https://github.com/jamesmurdza/awesome-ai-devtools,"ai, awesome, cloud, debugging, developer, developers, for, powered, refactoring, testing, tools","Awesome AI-Powered Developer Tools
+
+> Source: https://github.com/jamesmurdza/awesome-ai-devtools
+
+⚡️🧑‍💻 Awesome AI-Powered Developer Tools
+
+This is a curated list of AI-powered developer tools. These tools leverage AI to assist developers in tasks such as code completion, refactoring, debugging, documentation, and more.
+
+- IDEs
+- Git Clients
+- Assistants
+  - Web-based
+  - IDE extensions
+  - Command-line
+  - Desktop
+- Shell assistants
+- Agents
+- PR agents
+- App generators
+- UI generators
+-..."
+bf25c7f4abb8,c-style,C/C++,systems,Systems Programming,C Best Practices,open-source,https://github.com/mcinglis/c-style,"best, optimization, practices, programming, style, systems","c-style
+
+> Source: https://github.com/mcinglis/c-style
+
+> [!WARNING]  
+> **2026 January**: This document is very old, and I no longer endorse it. I wrote it without the benefit of the perspective and experience that I have now.
+> 
+> Better resources for C coding style and toolchain configuration are:
+>
+> - SEI CERT C Coding Standard
+> - OpenSSF's Compiler Options Hardening Guide for C and C++
+> - clang-format
+
+C Style
+
+These are my favorite C programming practices. Some rules are as trivial as..."
+822c1a81326d,Sass Coding Guidelines,SASS/SCSS,frontend,Core Technologies,SASS Best Practices,open-source,https://github.com/bigcommerce/sass-style-guide,"best, coding, core, guidelines, performance, practices, sass, technologies","Sass Coding Guidelines
+
+> Source: https://github.com/bigcommerce/sass-style-guide
+
+Sass Coding Guidelines
+
+Bigcommerce uses Sass for style generation.
+
+Bigcommerce's naming conventions are heavily influenced by the SUIT CSS framework
+and align closely to Medium's
+thoughts on CSS. Which is to say, it relies on _structured class names_ and
+_meaningful hyphens_ (i.e., not using hyphens merely to separate words). This
+helps to work around the current limits of applying CSS to the DOM (i.e.,..."
+924def31d7df,The Do's and Don'ts of Using AI in Software Development,AI Tools for Developers,general,AI Tools for Developers,,community,https://www.kodeco.com/41989083-the-do-s-and-don-ts-of-using-ai-in-software-development,"ai, and, developers, development, do, don, for, in, of, software, the, tools, ts, typescript, using","The Do's and Don'ts of Using AI in Software Development
+
+> Source: https://www.kodeco.com/41989083-the-do-s-and-don-ts-of-using-ai-in-software-development
+
+Kodeco requires JavaScript. Please enable JavaScript to enjoy the best experience.
+
+Contents
+
+Contents
+
+Hide contents
+
+The Do’s and Don’ts of Using AI in Software Development
+
+15 mins
+
+* AI Is Revolutionizing Software Development
+* DON’T Use AI Tools to Replace Learning Platforms
+* DO Use Emerging AI Tools in your Learning Support System
+*..."
+5b9d5ab8dd99,Writing Clean Code in Dart: Best Practices & Design Patterns,Dart Best Practices,general,Dart Best Practices,,community,https://clouddevs.com/dart/clean-code/,"best, best practices, clean, clean code, cloud, code, dart, design, design patterns, in, patterns, practices, writing","Writing Clean Code in Dart: Best Practices & Design Patterns
+
+> Source: https://clouddevs.com/dart/clean-code/
+
+05th Feb 2024   
+
+Top 15 Sites to Hire Dart Developers"
+0700b44ad8a2,Golang Tutorial Series,Go,backend,Functional & Specialized,Go Golang Best Practices,community,https://golangbot.com/learn-golang-series/,"best, functional, go, golang, practices, series, specialized, tutorial","Golang Tutorial Series
+
+> Source: https://golangbot.com/learn-golang-series/
+
+Golang tutorial series
+
+Share on:
+twitter
+facebook
+linkedin
+copy
+
+Introduction
+
+1 - Introduction and Installation  
+2 - Hello World
+
+Variables, Types and Constants
+
+3 - Variables  
+4 - Data Types  
+5 - Constants
+
+Functions and Packages
+
+6 - Functions  
+7 - Packages
+
+Conditional Statements and Loops
+
+8 - if else statement  
+9 - Loops  
+10 - Switch Statement
+
+Arrays, Slices and Variadic Functions
+
+11 - Arrays and Slices..."
+83e1da0ea2fb,Best Practices to Increase Next.js Speed,Next.js,frontend,Frameworks & Libraries,Nextjs Best Practices,community,https://stackoverflow.blog/2022/12/20/best-practices-to-increase-the-speed-for-next-js-apps/,"best, best practices, frameworks, increase, libraries, next.js, nextjs, performance, practices, rest, speed, to","Best Practices to Increase Next.js Speed
+
+> Source: https://stackoverflow.blog/2022/12/20/best-practices-to-increase-the-speed-for-next-js-apps/
+
+*[Ed. note: While we take some time to rest up over the holidays and prepare for next year, we are re-publishing our top ten posts for the year. Please enjoy our favorite work this year and we’ll see you in 2023.]*
+
+In recent years, web application development has undergone a radical transformation due to the rise of Next.js. This framework allows..."
+6ced67bdb5b0,10 Best Practices for Secure AI Development,AI Tools for Developers,general,AI Tools for Developers,,community,https://snyk.io/blog/10-best-practices-for-securely-developing-with-ai/,"ai, best, best practices, cloud, developers, development, for, practices, rest, secure, security, tools","10 Best Practices for Secure AI Development
+
+> Source: https://snyk.io/blog/10-best-practices-for-securely-developing-with-ai/
+
+Written by 
+
+Simon Maple
+
+September 27, 2023
+
+ 0 mins read
+
+Play Video: 10 BEST Practices for Securely Developing with AI
+
+By now, we’re all painfully aware that AI has become a crucial and inevitable tool for developers to enhance their application development practices. Even if organizations restrict their developers using AI tools, we hear many stories of how they..."
+cd5116e312c6,3 Coding Best Practices for C++,C/C++,systems,Systems Programming,C Best Practices,community,https://www.perforce.com/blog/qac/3-coding-best-practices-cpp,"best, best practices, coding, for, practices, programming, rest, security, systems","3 Coding Best Practices for C++
+
+> Source: https://www.perforce.com/blog/qac/3-coding-best-practices-cpp
+
+Blog
+
+July 19, 2018
+
+Coding Best Practices for C++
+
+Richard Bellairs
+
+Coding Best Practices,
+
+Security & Compliance
+
+Coding best practices help you to write reliable, high-quality code. This is important as no matter what type of product you develop, your code needs to be reliable and error-free. Here we share three coding best practices for C++.
+
+Read along or jump ahead to the section..."
+24a0b15aa333,Sass-Guidelines,SASS/SCSS,frontend,Core Technologies,SASS Best Practices,open-source,https://github.com/blackfalcon/Sass-Guidlines/blob/master/SASS-Guidelines.md,"best, core, guidelines, practices, sass, technologies","Sass-Guidelines
+
+> Source: https://github.com/blackfalcon/Sass-Guidlines/blob/master/SASS-Guidelines.md
+
+blackfalcon 
+/
+**Sass-Guidlines**
+Public
+
+* Notifications You must be signed in to change notification settings
+* Fork
+  3
+* Star
+   44"
+398b60bce2c0,10 Nuxt Best Practices,Nuxt,frontend,Frameworks & Libraries,Nuxt Best Practices,community,https://climbtheladder.com/10-nuxt-best-practices/,"best, best practices, frameworks, libraries, nuxt, performance, practices, scalability","10 Nuxt Best Practices
+
+> Source: https://climbtheladder.com/10-nuxt-best-practices/
+
+Nuxt is a powerful JavaScript framework that makes it easy to create dynamic web applications. It is based on Vue.js and provides a great development experience for building modern web applications.
+
+However, like any other framework, Nuxt also has its own set of best practices that developers should follow to ensure their applications are optimized for performance and scalability. In this article, we will..."
+a9bb8cdefabc,Collaborative Collection of C++ Best Practices,C/C++,systems,Systems Programming,C Best Practices,open-source,https://github.com/lefticus/cppbestpractices,"best, best practices, collaborative, collection, of, practices, programming, systems","Collaborative Collection of C++ Best Practices
+
+> Source: https://github.com/lefticus/cppbestpractices
+
+cppbestpractices
+
+[](https://gitter.im/lefticus/cppbestpractices?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+Collaborative Collection of C++ Best Practices
+
+For more information please see the Preface.
+
+This online resource is part of Jason Turner's collection of C++ Best Practices resources.
+
+* C++ Best Practices Book
+* C++ Weekly YouTube Channel
+* The..."
+954f62f0ad8f,Sass-lang Style Rules,SASS/SCSS,frontend,Core Technologies,SASS Best Practices,community,https://sass-lang.com/documentation/style-rules,"best, core, lang, practices, rules, sass, style, technologies","Sass-lang Style Rules
+
+> Source: https://sass-lang.com/documentation/style-rules
+
+Style Rules
+
+Style rules are the foundation of Sass, just like they are for CSS. And they work the same way: you choose which elements to style with a selector, and declare properties that affect how those elements look.
+
+* SCSS
+* Sass
+* CSS
+
+Playground
+
+SCSS Syntax
+
+```
+.button {
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #e1e4e8;
+}
+```
+
+Playground
+
+Sass Syntax
+
+```
+.button
+..."
+7540978cca88,AWS Well-Architected Framework,AWS,cloud,Cloud & Deployment,AWS Best Practices,community,https://aws.amazon.com/architecture/well-architected/,"architected, architecture, aws, best, best practices, cloud, deployment, framework, optimization, performance, practices, security, well","AWS Well-Architected Framework
+
+> Source: https://aws.amazon.com/architecture/well-architected/
+
+AWS Architecture Center
+
+* Technology Categories
+* Video Series
+* AWS Well-Architected
+* Libraries
+* More Resources
+
+* Products›
+* Well architected
+
+AWS Well-Architected
+
+Learn, measure, and build using architectural best practices
+
+Get started with the AWS Well-Architected Tool
+
+Overview
+
+AWS Well-Architected helps cloud architects build secure, high-performing, resilient, and efficient..."
+2c78b32967a9,Soham Kamani – Golang,Go,backend,Functional & Specialized,Go Golang Best Practices,community,https://www.sohamkamani.com/golang/,"best, design patterns, functional, go, golang, kamani, practices, soham, specialized","Soham Kamani – Golang
+
+> Source: https://www.sohamkamani.com/golang/
+
+* 
+
+  #### A Comprehensive Guide of Arrays and Slices in Golang (and their differences)
+
+  Jun 21, 2019 [Go](/golang/arrays-vs-slices)
+* 
+
+  #### An Introduction to Channels in Go (Golang)
+
+  Aug 24, 2017 [Go](/golang/channels)
+* 
+
+  #### Command Pattern in Go (Golang)
+
+  Nov 27, 2019 [Go](/golang/command-pattern)
+* 
+
+  #### Golang Constructors - Design Patterns For Initializing Variables
+
+  Sep 19, 2022..."
+eed94c5346ed,The C++ Core Guidelines,C/C++,systems,Systems Programming,C Best Practices,open-source,https://github.com/isocpp/CppCoreGuidelines,"best, core, guidelines, practices, programming, systems, the","The C++ Core Guidelines
+
+> Source: https://github.com/isocpp/CppCoreGuidelines
+
+[](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
+
+>""Within C++ is a smaller, simpler, safer language struggling to get out.""
+>-- Bjarne Stroustrup
+
+The C++ Core Guidelines are a collaborative effort led by Bjarne Stroustrup, much like the C++ language itself. They are the result of many
+person-years of discussion and design across a number of organizations. Their design encourages general..."
+b8aad3894efa,Python Code Style Guide,Python,backend,Web Backend,Python Best Practices,community,https://docs.python-guide.org/writing/style/,"backend, best, code, django, flask, guide, practices, py, python, style, style guide, web","Python Code Style Guide
+
+> Source: https://docs.python-guide.org/writing/style/
+
+Code Style¶
+
+If you ask Python programmers what they like most about Python, they will
+often cite its high readability. Indeed, a high level of readability
+is at the heart of the design of the Python language, following the
+recognized fact that code is read much more often than it is written.
+
+One reason for the high readability of Python code is its relatively
+complete set of Code Style guidelines and “Pythonic”..."
+73df2f9179fb,Design Patterns in Go,Featured Resources,general,Featured Resources,Design Patterns,standard,https://refactoring.guru/design-patterns/go,"design, design patterns, featured, go, golang, in, patterns, refactoring, resources","Design Patterns in Go
+
+> Source: https://refactoring.guru/design-patterns/go
+
+Design Patterns in Go
+
+The Catalog of **Go** Examples
+
+Creational Patterns
+
+Abstract Factory
+
+Lets you produce families of related objects without specifying their concrete classes.
+
+Main article
+
+Code example
+
+Builder
+
+Lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+
+Main article
+
+Code..."
+8ac2a219eccc,Web Vitals Best Practices (Google),Frontend Performance,frontend,Performance,Frontend Performance Best Practices,community,https://web.dev/vitals/,"best, best practices, frontend, google, performance, practices, vitals, web","Web Vitals Best Practices (Google)
+
+> Source: https://web.dev/vitals/
+
+* Home
+* Articles
+
+Web Vitals Stay organized with collections Save and categorize content based on your preferences.
+
+Philip Walton
+
+X
+GitHub
+LinkedIn
+Mastodon
+Bluesky
+Homepage
+
+Published: May 4, 2020
+
+Optimizing for quality of user experience is key to the long-term success of any site on the web. Whether you're a business owner, marketer, or developer, Web Vitals can help you quantify the experience of your site and..."
+b8cb3ac4943c,Arel Cheatsheet,Ruby on Rails,backend,Web Backend,Rails Best Practices,community,https://devhints.io/arel,"arel, backend, best, cheatsheet, practices, rails, rb, rest, ror, ruby, sql, web","Arel Cheatsheet
+
+> Source: https://devhints.io/arel
+
+About
+
+Arel is an SQL abstraction library built into Ruby on Rails.
+
+* 
+
+Tables
+
+```
+users = Arel::Table.new(:users)
+users = User.arel_table  # ActiveRecord model
+```
+
+Fields
+
+```
+users[:name]
+users[:id]
+```
+
+`where` (restriction)
+
+```
+users.where(users[:name].eq('amy'))
+SELECT * FROM users WHERE users.name = 'amy'
+```
+
+`select` (projection)
+
+```
+users.project(users[:id])
+SELECT users.id FROM users
+```
+
+`join`
+
+basic join
+
+In ActiveRecord..."
+3af5f35d8fad,ES6 Cheatsheet,JavaScript,frontend,Core Technologies,JavaScript Best Practices,open-source,https://github.com/DrkSephy/es6-cheatsheet,"best, best practices, cheatsheet, core, ecmascript, es6, javascript, js, node, practices, refactoring, technologies","ES6 Cheatsheet
+
+> Source: https://github.com/DrkSephy/es6-cheatsheet
+
+es6-cheatsheet
+
+A cheatsheet containing ES2015 [ES6] tips, tricks, best practices and code
+snippet examples for your day to day workflow. Contributions are welcome!
+
+Table of Contents
+
+- var versus let / const
+- Replacing IIFEs with Blocks
+- Arrow Functions
+- Strings
+- Destructuring
+- Modules
+- Parameters
+- Classes
+- Symbols
+- Maps
+- WeakMaps
+- Promises
+- Generators
+- Async Await
+- Getter/Setter functions
+- License
+
+var..."
+8ed9ef15d747,Microservices Best Practices (Microsoft),Microservices,cloud,Cloud & Deployment,Microservices & Cloud-Native Best Practices,industry-leader,https://learn.microsoft.com/en-us/azure/architecture/microservices/,"architecture, authorization, best, best practices, cloud, deployment, microservices, microsoft, native, practices","Microservices Best Practices (Microsoft)
+
+> Source: https://learn.microsoft.com/en-us/azure/architecture/microservices/
+
+Table of contents 
+
+Exit editor mode
+
+Ask Learn
+
+Ask Learn
+
+Focus mode
+
+Table of contents
+Read in English
+
+Add
+
+Add to plan
+Edit
+
+Share via
+
+Facebook
+x.com
+LinkedIn
+Email
+
+Copy Markdown
+
+Print
+
+Note
+
+Access to this page requires authorization. You can try signing in or changing directories.
+
+Access to this page requires authorization. You can try changing..."
+efa33f9578b0,C++ Best Practices (CppCon),C/C++,systems,Systems Programming,C Best Practices,community,https://cppcon.org/cpp-best-practices/,"best, best practices, cppcon, performance, practices, programming, systems","C++ Best Practices (CppCon)
+
+> Source: https://cppcon.org/cpp-best-practices/
+
+“C++ Best Practices” is a two-day training course with programming exercises taught by Jason Turner. It is offered at the Meydenbauer Conference Center from 9AM to 5PM on Saturday and Sunday, September 29th and 30th, 2018 (immediately after the conference). Lunch is included.
+
+Course Description
+
+“C++ Best Practices” is designed to help programmers elevate the quality of their C++ code. This course is intended for..."
+4b503b2ccc53,11 Tips to Write Better Python Code,Python,backend,Web Backend,Python Best Practices,community,https://www.python-engineer.com/posts/11-tips-to-write-better-python-code/,"backend, best, best practices, better, code, django, flask, practices, py, python, tips, to, web, write","11 Tips to Write Better Python Code
+
+> Source: https://www.python-engineer.com/posts/11-tips-to-write-better-python-code/
+
+11 Tips And Tricks To Write Better Python Code
+
+**I show 11 Tips and Tricks to Write Better Python code! I show a lot of best practices that improve your code by making your code much cleaner and more Pythonic.**
+
+  
+
+#more
+
+In this tutorial I show 11 Tips and Tricks to **write better Python code**! I show a lot of best practices that improve your code by making your code..."
+17b27fbc6ef0,Swift Style Guide (Eure),Swift,mobile,Functional & Specialized,Swift Best Practices,open-source,https://github.com/eure/swift-style-guide,"api, best, cloud, eure, functional, guide, ios, macos, practices, specialized, style, style guide, swift, testing","Swift Style Guide (Eure)
+
+> Source: https://github.com/eure/swift-style-guide
+
+> Note: This repository is no longer being maintained.
+
+Swift Style Guide
+
+English | 日本語
+
+This style guide is a product of our iOS team's more than a year writing, reviewing, and testing Swift code. It reflects the coding rules we have observed as ""efficient"" in our production apps.
+
+The guidelines here try to accomplish/encourage practices that accomplish the following goals:
+
+- to make it hard to write programmer..."
+89df09eea28a,Agile Development Best Practices,Version Control & Collaboration,general,Version Control & Collaboration,Team & Collaboration Best Practices,community,https://www.atlassian.com/agile,"agile, api, best, best practices, collaboration, control, development, practices, team, version","Agile Development Best Practices
+
+> Source: https://www.atlassian.com/agile
+
+What is Agile?
+
+Understanding the Agile methodology
+
+Get started with the free Jira scrum template
+
+Streamline your project and easily plan, track, and manage work across sprints. This template includes boards, backlogs, roadmaps, reports, and more!
+
+Use template
+
+**Key Takeaways**
+
+* Agile is a flexible, iterative approach to project management that emphasizes collaboration, continuous delivery, and adaptability.
+* It..."
+042421e93b92,High Performance Web Apps (MDN),Frontend Performance,frontend,Performance,Frontend Performance Best Practices,industry-leader,https://developer.mozilla.org/en-US/docs/Learn/Performance,"apps, best, best practices, frontend, high, mdn, performance, practices, rest, web","High Performance Web Apps (MDN)
+
+> Source: https://developer.mozilla.org/en-US/docs/Learn/Performance
+
+Web performance
+
+* Overview: Extension modules
+* Next
+
+Building websites requires HTML, CSS, and JavaScript. To build websites and applications people want to use, which attract and retain users, you need to create a good user experience. Part of good user experience is ensuring the content is quick to load and responsive to user interaction. This is known as **web performance**, and in this..."
+64d6e077bbeb,C++ Best Practices by Puppet Labs,C/C++,systems,Systems Programming,C Best Practices,open-source,https://github.com/puppetlabs/cppbestpractices,"best, best practices, by, labs, practices, programming, puppet, style guide, systems","C++ Best Practices by Puppet Labs
+
+> Source: https://github.com/puppetlabs/cppbestpractices
+
+C++ Best Practices at Puppet Labs
+
+**Table of Contents**
+
+- Getting Started Resources
+  - The C++ Language
+    - Study Guide
+    - Language References
+    - Community
+    - Practitioner Knowledge
+    - Tooling
+  - Starting a Project
+    - Libraries
+    - cpp-project-template
+    - Vanagon
+    - Cross-platform development
+    - Internationalization (i18n)
+- Style Guide
+  - Header Files
+  - Namespaces
+  -..."
+696e18c49829,Production Rails,Ruby on Rails,backend,Web Backend,Rails Best Practices,open-source,https://github.com/ankane/production_rails,"backend, best, best practices, logging, practices, production, rails, rb, ror, ruby, security, web","Production Rails
+
+> Source: https://github.com/ankane/production_rails
+
+Production Rails
+
+:rocket: Best practices for running Rails in production
+
+This guide covers different concepts you should be familiar with. Recommendations come from personal experience and work at Instacart. A number of open source projects are ones I’ve created. For a comprehensive list of gems, check out Awesome Ruby.
+
+Security
+
+Everyone writing code must be responsible for security. See best practices and how to secure..."
+0dea760a100d,Cloud-Native Patterns (CNCF),Microservices,cloud,Cloud & Deployment,Microservices & Cloud-Native Best Practices,open-source,https://github.com/cncf/presentations,"best, cloud, cncf, deployment, frontend, microservices, native, patterns, practices","Cloud-Native Patterns (CNCF)
+
+> Source: https://github.com/cncf/presentations
+
+CNCF Community Presentations
+
+Incoming Changes (Pardon our dust)
+
+This repository is for presentations.cncf.io.
+
+- Frontend issues should be filed here: https://github.com/cncf/presentations-website/issues
+- Existing data and presentations will not be removed and will be migrated eventually by @castrojo
+
+Thanks for your patience!
+
+Submission Process
+
+1. If you are non-technical: File an issue with a link to the video..."
+20bcc518991f,"Common JavaScript ""Gotchas""",JavaScript,frontend,Core Technologies,JavaScript Best Practices,open-source,https://github.com/stevekwan/best-practices/blob/master/javascript/gotchas.md,"best, common, core, ecmascript, es6, gotchas, javascript, js, node, practices, technologies","Common JavaScript ""Gotchas""
+
+> Source: https://github.com/stevekwan/best-practices/blob/master/javascript/gotchas.md
+
+stevekwan 
+/
+**best-practices**
+Public
+
+* Notifications You must be signed in to change notification settings
+* Fork
+  163
+* Star
+   1.7k"
+75ca1bc58453,Design Patterns in Swift,Featured Resources,general,Featured Resources,Design Patterns,open-source,https://github.com/ochococo/Design-Patterns-In-Swift,"design, design patterns, featured, in, ios, macos, patterns, resources, swift","Design Patterns in Swift
+
+> Source: https://github.com/ochococo/Design-Patterns-In-Swift
+
+Design Patterns implemented in Swift 5.0
+========================================
+
+A short cheat-sheet with Xcode 10.2 Playground (Design-Patterns.playground.zip).
+
+🇨🇳中文版
+
+👷 Project started by: @nsmeme (Oktawian Chojnacki)
+
+👷 中文版由 @binglogo (棒棒彬) 整理翻译。
+
+🚀 How to generate README, Playground and zip from source: CONTRIBUTING.md
+
+```swift
+print(""Welcome!"")
+```
+
+Table of Contents
+
+| Behavioral                 ..."
+88de023df517,SQL Style Guide,SQL,database,SQL Databases,SQL Best Practices,community,https://www.sqlstyle.guide,"best, databases, guide, practices, sql, style, style guide","SQL Style Guide
+
+> Source: https://www.sqlstyle.guide
+
+* Overview
+* General
+  + Do
+  + Avoid
+* Naming conventions
+  + General
+  + Tables
+  + Columns
+  + Aliasing or correlations
+  + Stored procedures
+  + Uniform suffixes
+* Query syntax
+  + Reserved words
+  + White space
+  + Indentation
+  + Preferred formalisms
+* Create syntax
+  + Choosing data types
+  + Specifying default values
+  + Constraints and keys
+  + Designs to avoid
+* Appendix
+  + Reserved keyword reference
+  + Column data types
+
+SQL..."
+bfce8545a2d7,Effective Pair Programming,Version Control & Collaboration,general,Version Control & Collaboration,Team & Collaboration Best Practices,community,https://martinfowler.com/articles/on-pair-programming.html,"best, collaboration, control, effective, pair, practices, programming, rest, team, version","Effective Pair Programming
+
+> Source: https://martinfowler.com/articles/on-pair-programming.html
+
+On Pair Programming
+
+*Many people who work in software development today have heard of the practice of pair programming, yet it still only has patchy adoption in the industry.
+One reason for its varying acceptance is that its benefits are not immediately
+obvious, it pays off more in the medium- and long-term. And it's also not as
+simple as “two people working at a single computer”, so many dismiss..."
+4e03670ae50e,Python Tutorial: Best Practices & Mistakes,Python,backend,Web Backend,Python Best Practices,community,https://jaxenter.com/python-tutorial-best-practices-145959.html,"backend, best, best practices, django, flask, mistakes, practices, py, python, tutorial, web","Python Tutorial: Best Practices & Mistakes
+
+> Source: https://jaxenter.com/python-tutorial-best-practices-145959.html
+
+{{loadedArticle.subtitle}}
+
+{{loadedArticle.name}}
+
+{{category.name}}
+
+Issues: {{loadedArticle.issue.designation}}
+Issues: {{loadedArticle.issue.designation}}
+
+{{loadedArticle.publishedAt | daymonthyear}}
+
+{{loadedArticle.subtitle}}
+
+{{loadedArticle.name}}
+
+{{category.name}}
+
+Issues: {{loadedArticle.issue.designation}}
+Issues:..."
+f012cf1c1e5e,Modern C++ Exception Handling,C/C++,systems,Systems Programming,C Best Practices,industry-leader,https://docs.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp,"authorization, best, best practices, exception, handling, modern, practices, programming, systems","Modern C++ Exception Handling
+
+> Source: https://docs.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp
+
+Table of contents 
+
+Exit editor mode
+
+Ask Learn
+
+Ask Learn
+
+Focus mode
+
+Table of contents
+Read in English
+
+Add
+
+Add to plan
+Edit
+
+Share via
+
+Facebook
+x.com
+LinkedIn
+Email
+
+Copy Markdown
+
+Print
+
+Note
+
+Access to this page requires authorization. You can try signing in or changing directories.
+
+Access to this page requires authorization. You can try changing..."
+d9aaebdfb557,Securing Sensitive Data in Rails,Ruby on Rails,backend,Web Backend,Rails Best Practices,community,https://ankane.org/sensitive-data-rails,"backend, best, best practices, data, in, practices, rails, rb, ror, ruby, securing, security, sensitive, web","Securing Sensitive Data in Rails
+
+> Source: https://ankane.org/sensitive-data-rails
+
+Securing Sensitive Data in Rails
+
+It feels like data breaches are showing up every week in the news. If you haven’t taken a second look at how you’re storing sensitive data, now is probably a good time. Users trust you with the privacy and security of their information.
+
+This guide will walk through what data is sensitive, best practices for storing it, and pitfalls to avoid.
+
+What’s Sensitive?
+
+The National..."
+37a1c2fa502b,Pragmatic JavaScript Standards,JavaScript,frontend,Core Technologies,JavaScript Best Practices,open-source,https://github.com/stevekwan/best-practices/blob/master/javascript/best-practices.md,"best, core, ecmascript, es6, javascript, js, node, practices, pragmatic, standards, technologies","Pragmatic JavaScript Standards
+
+> Source: https://github.com/stevekwan/best-practices/blob/master/javascript/best-practices.md
+
+stevekwan 
+/
+**best-practices**
+Public
+
+* Notifications You must be signed in to change notification settings
+* Fork
+  163
+* Star
+   1.7k"
+4ba0f80b868e,Design Patterns in Python,Featured Resources,general,Featured Resources,Design Patterns,standard,https://refactoring.guru/design-patterns/python,"design, design patterns, django, featured, flask, in, patterns, py, python, refactoring, resources","Design Patterns in Python
+
+> Source: https://refactoring.guru/design-patterns/python
+
+Design Patterns in Python
+
+The Catalog of **Python** Examples
+
+Creational Patterns
+
+Abstract Factory
+
+Lets you produce families of related objects without specifying their concrete classes.
+
+Main article
+
+Usage in Python
+
+Code example
+
+Builder
+
+Lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction..."
+dbd07754cbc7,Best Practices for Writing SQL Queries,SQL,database,SQL Databases,SQL Best Practices,community,https://www.metabase.com/learn/sql-questions/sql-best-practices,"best, best practices, databases, for, practices, queries, sql, writing","Best Practices for Writing SQL Queries
+
+> Source: https://www.metabase.com/learn/sql-questions/sql-best-practices
+
+Redirecting…
+
+Click here if you are not redirected."
+6deaa33e1d18,Bash Best Practices,Bash,devops,Scripting & Automation,Bash Script Best Practices,community,https://bertvv.github.io/cheat-sheets/Bash.html,"api, automation, bash, best, best practices, clean code, practices, script, scripting, sh, shell, zsh","Bash Best Practices
+
+> Source: https://bertvv.github.io/cheat-sheets/Bash.html
+
+Bash best practices
+
+An attempt to bring order in good advice on writing Bash scripts I collected from several sources.
+
+General
+
+* The principles of Clean Code apply to Bash as well
+* Always use long parameter notation when available. This makes the script more readable, especially for lesser known/used commands that you don’t remember all the options for.
+
+  ```
+    # Avoid:
+    rm -rf -- ""${dir}""
+
+    # Good:
+   ..."
+242cd92c666c,JavaScript 规范,JavaScript,frontend,Core Technologies,JavaScript Best Practices,open-source,https://github.com/adamlu/javascript-style-guide,"best, core, ecmascript, es6, javascript, js, node, performance, practices, technologies","JavaScript 规范
+
+> Source: https://github.com/adamlu/javascript-style-guide
+
+原文: https://github.com/airbnb/javascript
+
+注：本人根据自己的开发习惯删除和修改了部分规范
+
+JavaScript规范
+
+内容列表
+
+  1. 类型
+  1. 对象
+  1. 数组
+  1. 字符串
+  1. 函数
+  1. 属性
+  1. 变量
+  1. 条件表达式和等号
+  1. 块
+  1. 注释
+  1. 空白
+  1. 逗号
+  1. 分号
+  1. 类型转换
+  1. 命名约定
+  1. 存取器
+  1. 构造器
+  1. 事件
+  1. 模块
+  1. jQuery
+  1. ES5 兼容性
+  1. 性能
+  1. 资源
+  1. 哪些人在使用
+  1. 翻译
+  1. JavaScript风格指南
+  1. 贡献者
+  1. 许可
+
+类型
+
+  - **原始值**: 相当于传值
+
+    + `string`
+    + `number`
+    + `boolean`
+   ..."
+9a70ca77220a,Elixir Metaprogramming Cheatsheet,Functional & Specialized,general,Functional & Specialized,Elixir Best Practices,community,https://devhints.io/elixir-metaprogramming,"best, cheatsheet, elixir, functional, metaprogramming, practices, specialized","Elixir Metaprogramming Cheatsheet
+
+> Source: https://devhints.io/elixir-metaprogramming
+
+Kernel
+
+Most of these magic is defined in Kernel.SpecialForms.
+
+Pseudo-variables
+
+```
+__DIR__     # current dir
+__MODULE__  # current module
+__CALLER__  # caller of the function
+```
+
+`__ENV__`
+
+```
+Map.keys(__ENV__)
+[:__struct__, :aliases, :context, :context_modules, :export_vars, :file,
+ :function, :functions, :lexical_tracker, :line, :macro_aliases, :macros,
+ :module, :requires,..."
+e20a5f7e54dd,API Security Checklist,API Security,security,Security,API Security Best Practices,open-source,https://github.com/shieldfy/API-Security-Checklist,"api, authentication, authorization, best, checklist, practices, security, testing","API Security Checklist
+
+> Source: https://github.com/shieldfy/API-Security-Checklist
+
+繁中版 | 简中版 | العربية | Azərbaycan | Български | বাংলা | Català | Čeština | Deutsch | Ελληνικά | Español | فارسی | Français | हिंदी | Indonesia | Italiano | 日本語 | 한국어 | ພາສາລາວ | Македонски | മലയാളം | Монгол | Nederlands | Polski | Português (Brasil) | Русский | ไทย | Türkçe | Українська | Tiếng Việt
+
+API Security Checklist
+
+Checklist of the most important security countermeasures when designing, testing, and..."
+fc5325ceaa04,Top Ten Tips for Correct C++ Coding,C/C++,systems,Systems Programming,C Best Practices,community,https://www.informit.com/articles/article.aspx?p=1712962,"best, cloud, coding, correct, for, practices, programming, systems, ten, tips, top","Top Ten Tips for Correct C++ Coding
+
+> Source: https://www.informit.com/articles/article.aspx?p=1712962
+
+Articles
+
+858 Items
+
+Sort by Date | Title
+
+|  |
+| --- |
+| How Generative AI Transforms Cloud Reliability Engineering?  By Mariya Breyter, Carlos Rojas  Apr 7, 2025    Cloud Reliability Engineering (CRE) helps companies ensure the seamless - Always On - availability of modern cloud systems. In this article, learn how AI enhances resilience, reliability, and innovation in CRE, and explore use..."
+cb78f8af4b10,Ruby Style Guide,Ruby,backend,Web Backend,Ruby Best Practices,industry-leader,https://github.com/airbnb/ruby,"backend, best, guide, practices, rails, rb, ror, ruby, style, style guide, web","Ruby Style Guide
+
+> Source: https://github.com/airbnb/ruby
+
+Ruby Style Guide
+
+This is Airbnb's Ruby Style Guide.
+
+It was inspired by GitHub's guide and [RuboCop's guide][rubocop-guide].
+
+Airbnb also maintains a [JavaScript Style Guide][airbnb-javascript].
+
+Table of Contents
+  1. Whitespace
+      1. Indentation
+      1. Inline
+      1. Newlines
+  1. Line Length
+  1. Commenting
+      1. File/class-level comments
+      1. Function comments
+      1. Block and inline comments
+      1. Punctuation,..."
+cf4d2db23c31,NYTimes Objective-C Style Guide,Objective-C,mobile,Functional & Specialized,Objective-C Best Practices,open-source,https://github.com/NYTimes/objective-c-style-guide,"best, functional, guide, nytimes, objective, practices, specialized, style, style guide","NYTimes Objective-C Style Guide
+
+> Source: https://github.com/NYTimes/objective-c-style-guide
+
+[DEPRECATED]
+NYTimes Objective-C Style Guide is deprecated. No more development will be taking place. Thanks for all your support!
+
+NYTimes Objective-C Style Guide
+
+This style guide outlines the coding conventions of the iOS teams at The New York Times. We welcome your feedback in issues and pull requests. Also, we’re hiring.
+
+Thanks to all of our contributors.
+
+Introduction
+
+Here are some of the..."
+50b37bb40695,progrium/bashstyle,Bash,devops,Scripting & Automation,Bash Script Best Practices,open-source,https://github.com/progrium/bashstyle,"automation, bash, bashstyle, best, best practices, practices, progrium, script, scripting, sh, shell, zsh","progrium/bashstyle
+
+> Source: https://github.com/progrium/bashstyle
+
+progrium/bashstyle
+
+Bash is the JavaScript of systems programming. Although in some cases it's better to use a systems language like C or Go, Bash is an ideal systems language for smaller POSIX-oriented or command line tasks. Here's three quick reasons why:
+
+ * It's everywhere. Like JavaScript for the web, Bash is already there ready for systems programming.
+ * It's neutral. Unlike Ruby, Python, JavaScript, or PHP, Bash..."
+c500516c75ae,SQL Performance Explained (Markus Winand),SQL,database,SQL Databases,SQL Best Practices,community,https://use-the-index-luke.com/,"best, database, databases, explained, markus, performance, practices, sql, winand","SQL Performance Explained (Markus Winand)
+
+> Source: https://use-the-index-luke.com/
+
+SQL Indexing and Tuning e-Book
+
+A site explaining SQL indexing to developers—no crap about administration.
+
+SQL indexing is the most effective tuning method—yet it is often neglected during development. *Use The Index, Luke* explains SQL indexing from grounds up and doesn’t stop at ORM tools like Hibernate.
+
+*Use The Index, Luke* is the free web-edition of my book **SQL Performance Explained** (from Є9.95). Be..."
+441645ae4386,Rust Style Guide,Rust,systems,Systems Programming,Rust Best Practices,open-source,https://github.com/ubsan/style/blob/master/guide.md,"best, guide, practices, programming, rust, style, style guide, systems","Rust Style Guide
+
+> Source: https://github.com/ubsan/style/blob/master/guide.md
+
+strega-nil 
+/
+**style**
+Public
+
+* Notifications You must be signed in to change notification settings
+* Fork
+  2
+* Star
+   3"
+250af6826bbd,Google JavaScript Style Guide,JavaScript,frontend,Core Technologies,JavaScript Best Practices,industry-leader,https://google.github.io/styleguide/jsguide.html,"best, core, ecmascript, es6, google, guide, javascript, js, node, practices, style, style guide, technologies","Google JavaScript Style Guide
+
+> Source: https://google.github.io/styleguide/jsguide.html
+
+Google JavaScript Style Guide
+
+Please note: This guide is no longer being updated. Google recommends migrating
+to TypeScript, and following the TypeScript guide.
+
+1 Introduction
+
+This document serves as the **complete** definition of Google’s coding standards
+for source code in the JavaScript programming language. A JavaScript source file
+is described as being *in Google Style* if and only if it adheres..."
+b25e1548507d,PHP: The Right Way,PHP,backend,Web Backend,PHP Best Practices,open-source,https://github.com/codeguy/php-the-right-way,"backend, best, php, practices, right, style guide, the, way, web","PHP: The Right Way
+
+> Source: https://github.com/codeguy/php-the-right-way
+
+PHP: The Right Way
+
+Overview
+
+This is the GitHub Pages repository for the _PHP: The Right Way_ project.
+
+* This website is a Jekyll project.
+* Each section and sub-section are a Markdown file in `_posts/`.
+* Sub-sections have `isChild: true` in their front matter.
+* The navigation and page structure are automatically generated.
+
+Spread the Word!
+
+_PHP: The Right Way_ has web banner images you can use on your website...."
+155c2b23a0e7,Ruby Tricks & Best Practices,Ruby,backend,Web Backend,Ruby Best Practices,open-source,https://github.com/franzejr/best-ruby,"backend, best, best practices, practices, rails, rb, refactoring, ror, ruby, tricks, web","Ruby Tricks & Best Practices
+
+> Source: https://github.com/franzejr/best-ruby
+
+Ruby Tricks, Idiomatic Ruby, Refactorings and Best Practices
+
+> Do you know why experienced Ruby programmers tend to reach for basic collections
+> and hashes while programmers from other languages go for more specialized classes?
+> Do you know the difference between strip, chop, and chomp; and why there are three
+> such similar methods when apparently one might suffice (Not to mention lstrip and
+> rstrip!)? Do you..."
+17137a394170,Objective-C Style Guide (Ray Wenderlich),Objective-C,mobile,Functional & Specialized,Objective-C Best Practices,open-source,https://github.com/raywenderlich/objective-c-style-guide,"best, functional, guide, objective, practices, ray, specialized, style, style guide, wenderlich","Objective-C Style Guide (Ray Wenderlich)
+
+> Source: https://github.com/raywenderlich/objective-c-style-guide
+
+The official raywenderlich.com Objective-C style guide.
+
+This style guide outlines the coding conventions for raywenderlich.com.
+
+Introduction
+
+The reason we made this style guide was so that we could keep the code in our books, tutorials, and starter kits nice and consistent - even though we have many different authors working on the books.
+
+This style guide is different from other..."
+6e0d13bc664a,Best Practices for Bash Scripts,Bash,devops,Scripting & Automation,Bash Script Best Practices,community,https://hyperskill.org/learn/step/19230,"automation, bash, best, best practices, for, practices, script, scripting, scripts, sh, shell, zsh","Best Practices for Bash Scripts
+
+> Source: https://hyperskill.org/learn/step/19230"
+4bfb32fa4926,Rust Design Patterns,Rust,systems,Systems Programming,Rust Best Practices,community,https://rust-unofficial.github.io/patterns/,"best, design, design patterns, patterns, practices, programming, rest, rust, systems","Rust Design Patterns
+
+> Source: https://rust-unofficial.github.io/patterns/
+
+Introduction
+
+Participation
+
+If you are interested in contributing to this book, check out the
+contribution guidelines.
+
+News
+
+* **2025-12-14**: New pattern added:
+  Use custom traits to avoid complex type bounds
+* **2024-03-17**: You can now download the
+  book in PDF format.
+
+Design patterns
+
+In software development, we often come across problems that share similarities
+regardless of the environment they appear in...."
+032793f16323,PHP Knowledge,PHP,backend,Web Backend,PHP Best Practices,open-source,https://github.com/php-earth/php-knowledge,"api, backend, best, docker, knowledge, php, practices, security, testing, web","PHP Knowledge
+
+> Source: https://github.com/php-earth/php-knowledge
+
+PHP.earth documentation
+
+This is a living repository of courses, articles, and frequently asked questions
+about PHP and development.
+
+The following chapters will point out relevant topics to learn PHP and full stack
+development. Further resources to study particular topic in more details can be
+found in the `See also` sections.
+
+Vanilla PHP
+
+Course containing everything you need to get up and running from first steps to
+modern..."
+724ec0e54840,JavaScript The Right Way,JavaScript,frontend,Core Technologies,JavaScript Best Practices,community,https://jstherightway.org/,"best, core, ecmascript, es6, javascript, js, node, practices, right, technologies, the, way","JavaScript The Right Way
+
+> Source: https://jstherightway.org/
+
+[](https://jstherightway.org/sports)"
+1cd575d6b957,GitHub Objective-C Style Guide,Objective-C,mobile,Functional & Specialized,Objective-C Best Practices,open-source,https://github.com/github/objective-c-style-guide,"best, functional, github, guide, objective, practices, specialized, style, style guide","GitHub Objective-C Style Guide
+
+> Source: https://github.com/github/objective-c-style-guide
+
+This repository is no longer active.
+
+These guidelines build on Apple's existing Coding Guidelines for Cocoa.
+Unless explicitly contradicted below, assume that all of Apple's guidelines apply as well.
+
+Whitespace
+
+ * Tabs, not spaces.
+ * End files with a newline.
+ * Make liberal use of vertical whitespace to divide code into logical chunks.
+ * Don’t leave trailing whitespace.
+    * Not even leading..."
+fdb68daaec1d,PostgreSQL Performance Best Practices,PostgreSQL,database,SQL Databases,PostgreSQL Best Practices,community,https://www.adservio.fr/post/postgresql-performance-best-practices,"best, best practices, databases, performance, pg, postgres, postgresql, practices, sql","PostgreSQL Performance Best Practices
+
+> Source: https://www.adservio.fr/post/postgresql-performance-best-practices
+
+Industry insights you won’t delete. Delivered to your inbox weekly."
+614cc127f624,Best Practices for Writing Bash Scripts,Bash,devops,Scripting & Automation,Bash Script Best Practices,community,https://expeditor.chef.io/docs/patterns/bash-scripts/,"automation, bash, best, best practices, for, practices, script, scripting, scripts, sh, shell, writing, zsh","Best Practices for Writing Bash Scripts
+
+> Source: https://expeditor.chef.io/docs/patterns/bash-scripts/
+
+Best practices for writing Bash scripts
+
+ Table of Contents
+
+The goal of Expeditor is to capture as many patterns and practices as we can into reusable components in one of two ways:
+
+1. Create a built-in action for the process, like we did for things like built\_in:bump\_version.
+2. Create a Buildkite pipeline plugin, like we did for omnibus and Chef Habitat builds.
+
+As your project’s..."
+c9d62cf4970a,Design Patterns in Rust,Rust,systems,Systems Programming,Rust Best Practices,standard,https://refactoring.guru/design-patterns/rust,"best, design, design patterns, in, patterns, practices, programming, refactoring, rust, systems","Design Patterns in Rust
+
+> Source: https://refactoring.guru/design-patterns/rust
+
+Design Patterns in Rust
+
+The Catalog of **Rust** Examples
+
+Creational Patterns
+
+Abstract Factory
+
+Lets you produce families of related objects without specifying their concrete classes.
+
+Main article
+
+Code example
+
+Builder
+
+Lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+
+Main article
+
+Code..."
+f1589835b97f,Best Practice Patterns in Ruby,Ruby,backend,Web Backend,Ruby Best Practices,open-source,https://github.com/avdi/sbpprb,"backend, best, in, patterns, practice, practices, rails, rb, rest, ror, ruby, web","Best Practice Patterns in Ruby
+
+> Source: https://github.com/avdi/sbpprb
+
+My attempts at translating the code samples in Smalltalk Best Practice
+Patterns into Ruby code.
+
+See ongoing blog post series: http://avdi.org/devblog/category/smalltalk-best-practice-patterns/
+
+You really need a copy of the book for context if you're going to read these:
+http://www.amazon.com/Smalltalk-Best-Practice-Patterns-Kent/dp/013476904X/
+
+On collaboration: so, this is kind of a personal exercise for me; I want to..."
+fa425c7bdf63,PHP Coding Standards,PHP,backend,Web Backend,PHP Best Practices,open-source,https://github.com/maxdmyers/php-style-guide,"backend, best, coding, php, practices, standards, web","PHP Coding Standards
+
+> Source: https://github.com/maxdmyers/php-style-guide
+
+PHP Coding Standards
+
+Always use  to delimit PHP code. Do not use the shorthand version, . PHP short tags are not enabled by default on new installations and are deprecated.
+
+Use PHP 5 Conventions
+
+  Class constructors should use public function __construct() {} rather than the PHP 4 style class name.
+  Use class destructors where appropriate.
+  Explicitly declare visibility of member methods and variables (public,..."
+743578b4efa1,MDN JavaScript Guidelines,JavaScript,frontend,Core Technologies,JavaScript Best Practices,industry-leader,https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/JavaScript,"best, core, ecmascript, es6, guidelines, javascript, js, mdn, node, practices, technologies","MDN JavaScript Guidelines
+
+> Source: https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/JavaScript
+
+Guidelines for writing JavaScript code examples
+
+The following guidelines cover writing JavaScript example code for MDN Web Docs. This article is a list of rules for writing concise examples that will be understandable by as many people as possible.
+
+General guidelines for JavaScript code examples
+
+This section explains the general guidelines to keep in mind while writing..."
+b0368dfdfd4b,Code Style & Best Practices for Objective-C,Objective-C,mobile,Functional & Specialized,Objective-C Best Practices,open-source,https://github.com/wangshengjia/-Code-Style---Best-Practise-for-Objective-C,"best, best practices, code, for, functional, objective, practices, specialized, style","Best-Practise-for-Objective-C
+
+Code Style & Best Practices for Objective-C
+
+> Source: https://github.com/wangshengjia/-Code-Style---Best-Practise-for-Objective-C
+
+Code Style & Best Practise for Objective-C
+===========================================
+
+* Language
+* Code Naming
+* Method Signatures
+* Variables
+* Expressions
+* Spacing
+* Conditionals
+* Ternary Operator
+* Private Properties/Methods
+* Organization
+* Singletons
+* CGRect Functions
+* Constants
+* Literals
+* Init Methods
+* Dealloc
+*..."
+0289a013c538,System Design 101,System Design,architecture,Performance & Architecture,System Design Best Practices,open-source,https://github.com/ByteByteGoHq/system-design-101#system-design-101,"api, architecture, best, design, performance, practices, system, websocket","System Design 101
+
+> Source: https://github.com/ByteByteGoHq/system-design-101#system-design-101
+
+   
+
+  【
+  
+    👨🏻‍💻 YouTube
+   | 
+  
+    📮 Newsletter
+   】
+
+System Design 101
+
+Explain complex systems using visuals and simple terms. 
+
+Whether you're preparing for a System Design Interview or you simply want to understand how systems work beneath the surface, we hope this repository will help you achieve that.
+
+Table of Contents
+
+* API and Web Development
+  * Short/long polling, SSE, WebSocket
+..."
+8d035179b348,Java Best Practices,Java,backend,Enterprise & JVM Languages,Java Best Practices,open-source,https://github.com/in28minutes/java-best-practices,"aws, best, best practices, cloud, design patterns, devops, enterprise, java, jvm, languages, microservices, practices","Java Best Practices
+
+> Source: https://github.com/in28minutes/java-best-practices
+
+Java Best Practices
+
+I've been Programming, Designing and Architecting Java applications for 15 years. I would like this page to serve as a good starting point for programmers to understand what it takes to build good applications. I would talk about Best practices and Frequently asked questions in Coding, Designing and Architecting Java Applications. 
+
+Keep Learning Every Day
+- **1:** FOLLOW Ranga on..."
+ef68a27a5af0,Best Practices for PostgreSQL Database,PostgreSQL,database,SQL Databases,PostgreSQL Best Practices,community,https://www.e2enetworks.com/blog/best-practices-for-postgresql-database,"best, best practices, cloud, database, databases, for, pg, postgres, postgresql, practices, sql, testing","Best Practices for PostgreSQL Database
+
+> Source: https://www.e2enetworks.com/blog/best-practices-for-postgresql-database
+
+**Introduction**
+
+PostgreSQL is an open-source, enterprise-class, powerful relational database that is developed and maintained by the PostgreSQL Global Development Group. It is a highly scalable database that supports both SQL and JSON querying. When utilised appropriately, the PostgreSQL database can act as a powerful and financially smart addition to the organisation..."
+b67707df417b,Laravel: The Right Way,Laravel,backend,Web Backend,Laravel Best Practices,open-source,https://github.com/laraveltherightway/laraveltherightway.github.io,"backend, best, best practices, laravel, practices, rest, right, style guide, the, way, web","Laravel: The Right Way
+
+> Source: https://github.com/laraveltherightway/laraveltherightway.github.io
+
+Laravel: Best Practices
+
+Overview
+
+This is the GitHub Pages repository for the _Laravel Best Practices_ project.
+
+* This website is a Jekyll project.
+* Each section and sub-section are a Markdown file in `_posts/`.
+* Sub-sections have `isChild: true` in their front matter.
+* The navigation and page structure are automatically generated.
+
+Spread the Word!
+
+_Laravel: Best Practices_ has web..."
+4111f6f320cd,Ruby Best Practices (Gregory Brown),Ruby,backend,Web Backend,Ruby Best Practices,open-source,https://github.com/practicingruby/rbp-book,"backend, best, best practices, brown, gregory, practices, rails, rb, ror, ruby, web","Ruby Best Practices (Gregory Brown)
+
+> Source: https://github.com/practicingruby/rbp-book
+
+Welcome to the open source home of the ""Ruby Best Practices"" book.
+
+Here you'll find the original manuscript along with the production files that
+were used to generate the print version of the book.
+
+If instead you were looking for a free PDF download of the book, you
+can find it here:
+
+http://sandal.github.com/rbp-book/pdfs/rbp_1-0.pdf
+
+Or, if you wanted to kill trees and give me some..."
+82d8fc40cc3a,Effective Perl Programming: Idiomatic Perl,Perl,scripting,Functional & Specialized,Perl Best Practices,community,https://www.effectiveperlprogramming.com/,"best, effective, functional, idiomatic, perl, practices, programming, specialized","Effective Perl Programming: Idiomatic Perl
+
+> Source: https://www.effectiveperlprogramming.com/
+
+ These items are in Perl New Features, a book from Perl School that you can buy on LeanPub or Amazon. Your support helps me to produce more content.
+
+* Unicode 14
+* `use v5.36` now disables `indirect` and `multidimensional`
+* switch removed from v5.36 feature bundle
+* Pure booleans
+* `use v5.36` enables warnings
+* More paired delimiters
+* `finally` blocks
+* subroutine signatures are no longer..."
+168dd23c0bb1,Selenium Best Practices,Java,backend,Enterprise & JVM Languages,Java Best Practices,open-source,https://github.com/previousdeveloper/Selenium-best-practices,"best, best practices, enterprise, java, jvm, languages, practices, selenium, testing","Selenium Best Practices
+
+> Source: https://github.com/previousdeveloper/Selenium-best-practices
+
+Goal
+Our goal is to get together Selenium best practices. Feedback is welcome. If you see anything wrong or know better way open an issue or create a pull request, just fork it and change it. We are open to learn and hear new ideas. 
+
+Selenium-best-practices
+Selenium is a portable software testing framework for web applications. It also provides a test domain-specific language to write tests in a..."
+d7e63c8c23cf,MLOps Best Practices (Google Cloud),AI/ML Engineering Best Practices,general,AI/ML Engineering Best Practices,,industry-leader,https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning,"ai, api, architecture, best, best practices, cloud, devops, engineering, google, ml, mlops, monitoring, practices, testing","MLOps Best Practices (Google Cloud)
+
+> Source: https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
+
+* Home
+* Documentation
+* Cloud Architecture Center
+
+Send feedback
+
+MLOps: Continuous delivery and automation pipelines in machine learning Stay organized with collections Save and categorize content based on your preferences.
+
+Last reviewed 2024-08-28 UTC
+
+This document discusses techniques for implementing and automating..."
+c04079b18f8d,Laravel Best Practices,Laravel,backend,Web Backend,Laravel Best Practices,open-source,https://github.com/uonick/laravel-best-practices,"backend, best, best practices, laravel, practices, web","Laravel Best Practices
+
+> Source: https://github.com/uonick/laravel-best-practices
+
+Laravel: The Right Way (Best Practices)
+* English version
+* Русская версия"
+954c2b416227,"Run ANALYZE, Run ANALYZE, Run ANALYZE",PostgreSQL,database,SQL Databases,PostgreSQL Best Practices,community,https://ottertune.com/blog/run-postgresql-analyze-to-fix-a-slowdow-in-db/,"analyze, best, database, databases, performance, pg, postgres, postgresql, practices, run, sql","Run ANALYZE, Run ANALYZE, Run ANALYZE
+
+> Source: https://ottertune.com/blog/run-postgresql-analyze-to-fix-a-slowdow-in-db/
+
+May 19, 2022
+
+Run ANALYZE. Run ANALYZE. Run ANALYZE.
+
+Bohan Zhang
+
+We’ve said it before, we’ll say it again: one of the first things you should do, if not the first, when trying to solve a slow-running PostgreSQL query problem is run ANALYZE. A recent interaction with an OtterTune user is a good case in point.
+
+About PostgreSQL ANALYZE
+
+Getting statistics about how your..."
+76db7c5dccb6,Shopify Ruby Style Guide,Ruby,backend,Web Backend,Ruby Best Practices,industry-leader,https://github.com/Shopify/ruby-style-guide,"backend, best, guide, practices, rails, rb, ror, ruby, shopify, style, style guide, web","Shopify Ruby Style Guide
+
+> Source: https://github.com/Shopify/ruby-style-guide
+
+layout: default
+title: Ruby Style Guide
+permalink: '/'
+
+Ruby Style Guide
+
+Ruby is the main language at Shopify. We are primarily a Ruby shop and we are
+probably one of the largest out there. Ruby is the go-to language for new web
+projects and scripting.
+
+We expect all developers at Shopify to have at least a passing understanding of
+Ruby. It's a great language. It will make you a better developer no matter what
+you..."
+25a56f1e8639,Perl Style Guide,Perl,scripting,Functional & Specialized,Perl Best Practices,community,https://perldoc.perl.org/perlstyle,"best, functional, guide, perl, practices, specialized, style, style guide","Perl Style Guide
+
+> Source: https://perldoc.perl.org/perlstyle
+
+perlstyle
+
+(source,
+CPAN)
+
+CONTENTS
+
+* NAME
+* DESCRIPTION
+
+#NAME
+
+perlstyle - Perl style guide
+
+#DESCRIPTION
+
+Each programmer will, of course, have his or her own preferences in regards to formatting, but there are some general guidelines that will make your programs easier to read, understand, and maintain.
+
+The most important thing is to use strict and warnings in all your code or know the reason why not to. You may turn them off..."
+d89bd49a541b,Best Practices for Designing PostgreSQL Databases,PostgreSQL,database,SQL Databases,PostgreSQL Best Practices,community,https://appmaster.io/blog/best-practices-for-designing-postgresql-databases,"best, best practices, database, databases, designing, for, performance, pg, postgres, postgresql, practices, sql","Best Practices for Designing PostgreSQL Databases
+
+> Source: https://appmaster.io/blog/best-practices-for-designing-postgresql-databases
+
+Designing a PostgreSQL database is a critical task, as it determines how your data will be stored, accessed, and maintained. Following best practices ensures that your database is efficient, scalable, and secure. In this article, we will discuss various best practices for designing PostgreSQL databases, including normalization, indexing, constraint..."
+1c1dcc6f1cbc,Responsible AI Practices (Google),AI/ML Engineering Best Practices,general,AI/ML Engineering Best Practices,,community,https://ai.google/responsibilities/responsible-ai-practices/,"ai, best, engineering, google, ml, practices, responsible","Responsible AI Practices (Google)
+
+> Source: https://ai.google/responsibilities/responsible-ai-practices/
+
+Learn about how we develop and deploy responsible AI
+
+Learn more"
+ca248c0f664e,Beyond Basic R – Introduction & Best Practices,R Best Practices,general,R Best Practices,,community,https://waterdata.usgs.gov/blog/intro-best-practices/,"basic, best, best practices, beyond, introduction, practices","Beyond Basic R – Introduction & Best Practices
+
+> Source: https://waterdata.usgs.gov/blog/intro-best-practices/
+
+Beyond Basic R - Introduction and Best Practices
+
+Brief introduction to the series of posts about next steps after learning basic R, plus some tips on best practices for scripting in R.
+
+Date Posted
+July 30, 2018
+Last Updated
+December 31, 2025
+
+Author
+Lindsay R Carr
+
+Reading Time
+5 minutes
+Share
+
+We queried more than 60 people who have taken the USGS Introduction to R
+class over the..."
+b0304cd05500,Best NestJS Practices and Advanced Techniques,NestJS,backend,Web Backend,NestJS Best Practices,community,https://dev.to/drbenzene/best-nestjs-practices-and-advanced-techniques-9m0,"advanced, and, architecture, authentication, authorization, backend, best, best practices, logging, nestjs, optimization, performance, practices, techniques, testing, web","Best NestJS Practices and Advanced Techniques
+
+> Source: https://dev.to/drbenzene/best-nestjs-practices-and-advanced-techniques-9m0
+
+NestJS has quickly gained popularity as a powerful framework for building scalable and maintainable Node.js applications. Its modular architecture, dependency injection system, and support for TypeScript make it an excellent choice for developing complex backend systems. In this blog post, we will explore some of the best practices and advanced techniques for..."
+32045ea7460e,TypeScript Best Practices,TypeScript,frontend,Core Technologies,TypeScript Best Practices,open-source,https://github.com/BestCoderDotInfo/TypeScript-best-practices,"aws, best, best practices, core, practices, technologies, ts, typescript","TypeScript Best Practices
+
+> Source: https://github.com/BestCoderDotInfo/TypeScript-best-practices
+
+TypeScript best practices
+This is a guide to the best practices to follow when creating typing files. There are a variety of different ways that typing files can be constructed. Different approaches can be used - this is intended as a guide to what approaches make sense in certain scenarios.
+
+Also, it's a steer on how to deal with limitations in TypeScript. As much as it hurts to say it,..."
+1af187eaec24,Best Practices for LLM Applications,AI/ML Engineering Best Practices,general,AI/ML Engineering Best Practices,,community,https://www.promptingguide.ai/,"ai, applications, best, best practices, debugging, engineering, for, llm, ml, practices, rest","Best Practices for LLM Applications
+
+> Source: https://www.promptingguide.ai/
+
+Prompt Engineering
+
+Copy page
+
+Prompt Engineering Guide
+
+Prompt engineering is a relatively new discipline for developing and optimizing prompts to efficiently use language models (LMs) for a wide variety of applications and research topics. Prompt engineering skills help to better understand the capabilities and limitations of large language models (LLMs).
+
+Researchers use prompt engineering to improve the capacity..."
+c281bbf9874f,MySQL Performance Best Practices,MySQL,database,SQL Databases,MySQL Best Practices,community,https://dev.mysql.com/doc/refman/8.0/en/optimization.html,"best, best practices, databases, mariadb, mysql, optimization, performance, practices, rest, security, sql","MySQL Performance Best Practices
+
+> Source: https://dev.mysql.com/doc/refman/8.0/en/optimization.html
+
+Skip to Main Content
+
+Documentation Home
+
+MySQL 8.0 Reference Manual
+
+Related Documentation
+
+MySQL 8.0 Release Notes  
+MySQL 8.0 Source Code Documentation
+
+Download
+this Manual
+
+PDF (US Ltr)
+- 43.3Mb  
+PDF (A4)
+- 43.4Mb  
+Man Pages (TGZ)
+- 297.3Kb  
+Man Pages (Zip)
+- 402.5Kb  
+Info (Gzip)
+- 4.3Mb  
+Info (Zip)
+- 4.3Mb
+
+Excerpts from this Manual
+
+MySQL Backup and Recovery  
+MySQL Globalization ..."
+63761dfdf534,Java Best Practices Guide,Java,backend,Enterprise & JVM Languages,Java Best Practices,community,https://howtodoinjava.com/java-best-practices/,"best, best practices, enterprise, guide, java, jvm, languages, practices, testing","Java Best Practices Guide
+
+> Source: https://howtodoinjava.com/java-best-practices/
+
+A good programmer is one who write programs (not just code). It means writing the code units which are independent enough to be re-used in multiple ways, and still they remain robust.
+
+So let’s start identifying and learning some java best practices which can transform any code into the programs.
+
+1. Java Design Best Practices
+
+Following java best practices are mainly focused on system design time..."
+165c2e9f26ff,Advanced ReactJS Patterns,Frameworks & Libraries,general,Frameworks & Libraries,ReactJS Best Practices,open-source,https://github.com/kentcdodds/advanced-react-patterns-v2,"advanced, best, frameworks, frontend, jsx, libraries, patterns, practices, react, reactjs","Advanced ReactJS Patterns
+
+> Source: https://github.com/kentcdodds/advanced-react-patterns-v2
+
+Advanced React Patterns v2
+
+👋 hi there! My name is Kent C. Dodds! This is a
+workshop repo to teach you about using React Component Patterns to make your
+react components more useful and reusable without sacrificing simplicity.
+
+Following along with Frontend Masters?
+
+Head to
+the `frontend-masters` branch
+to get started!
+
+[![chat-badge][chat-badge]][chat]
+[![Build..."
+9e04e75a5c95,The Elixir Style Guide,Functional & Specialized,general,Functional & Specialized,Elixir Best Practices,open-source,https://github.com/christopheradams/elixir_style_guide,"architecture, best, elixir, functional, guide, practices, specialized, style, style guide, testing, the","The Elixir Style Guide
+
+> Source: https://github.com/christopheradams/elixir_style_guide
+
+[The Elixir Style Guide][Elixir Style Guide]
+
+Table of Contents
+
+* __Prelude__
+* __About__
+* __Formatting__
+  * Whitespace
+  * Indentation
+  * Parentheses
+* __The Guide__
+  * Expressions
+  * Naming
+  * Comments
+    * Comment Annotations
+  * Modules
+  * Documentation
+  * Typespecs
+  * Structs
+  * Exceptions
+  * Collections
+  * Strings
+  * _Regular Expressions_
+  * Metaprogramming
+  * Testing
+*..."
+a8adf247c3df,IBM Data Science – Best Practices,AI/ML Engineering Best Practices,general,AI/ML Engineering Best Practices,,open-source,https://github.com/IBM/data-science-best-practices,"ai, best, best practices, data, engineering, ibm, ml, practices, science","IBM Data Science – Best Practices
+
+> Source: https://github.com/IBM/data-science-best-practices
+
+IBM Data Science - Best Practices &middot; [](./LICENSE.txt)
+
+Read Me
+
+Go to IBM Data Science - Best Practices website.
+
+License
+
+See License
+
+Need Help
+
+Reach us at on Slack #datascience-best-practices (IBM Internal)"
+65c1f32e0304,MySQL Security Best Practices,MySQL,database,SQL Databases,MySQL Best Practices,community,https://dev.mysql.com/doc/refman/8.0/en/security-guidelines.html,"best, best practices, databases, mariadb, mysql, performance, practices, rest, security, sql","MySQL Security Best Practices
+
+> Source: https://dev.mysql.com/doc/refman/8.0/en/security-guidelines.html
+
+Skip to Main Content
+
+Documentation Home
+
+MySQL 8.0 Reference Manual
+
+Related Documentation
+
+MySQL 8.0 Release Notes  
+MySQL 8.0 Source Code Documentation
+
+Download
+this Manual
+
+PDF (US Ltr)
+- 43.3Mb  
+PDF (A4)
+- 43.4Mb  
+Man Pages (TGZ)
+- 297.3Kb  
+Man Pages (Zip)
+- 402.5Kb  
+Info (Gzip)
+- 4.3Mb  
+Info (Zip)
+- 4.3Mb
+
+Excerpts from this Manual
+
+MySQL Backup and Recovery  
+MySQL..."
+be3526c4efa1,Best Practices for Writing R Code,R Best Practices,general,R Best Practices,,community,https://swcarpentry.github.io/r-novice-inflammation/06-best-practices-R.html,"best, best practices, code, for, practices, writing","Best Practices for Writing R Code
+
+> Source: https://swcarpentry.github.io/r-novice-inflammation/06-best-practices-R.html
+
+Best Practices for Writing R Code
+
+Last updated on 2026-02-03 |
+Edit this page
+
+Expand All Solutions
+
+Overview
+
+Questions
+
+* How can I write R code that other people can understand and
+  use?
+
+Objectives
+
+* Describe changes made to code for future reference.
+* Understand the importance about requirements and dependencies for
+  your code.
+* Know when to use setwd().
+* To..."
+87ad8528fc17,Lua Style Guide,Lua,scripting,Functional & Specialized,Lua Best Practices,community,http://lua-users.org/wiki/LuaStyleGuide,"best, functional, guide, lua, practices, specialized, style, style guide","Lua Style Guide
+
+> Source: http://lua-users.org/wiki/LuaStyleGuide
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Lua Style Guide | |  | | --- | | lua-users home | | |  |  | | --- | --- | |  | wiki | | |
+
+  
+
+Introduction
+
+Before applying these Lua style guidelines, consider the words of warning taken from the [[Python style guide]](http://www.python.org/dev/peps/pep-0008/), which applies just as well to Lua. Code is read much more often than it is written, and this style guide..."
+5e942d021dac,Elixir Style Guide,Functional & Specialized,general,Functional & Specialized,Elixir Best Practices,open-source,https://github.com/lexmag/elixir-style-guide,"best, elixir, functional, guide, practices, specialized, style, style guide","Elixir Style Guide
+
+> Source: https://github.com/lexmag/elixir-style-guide
+
+Elixir Style Guide
+
+> A programmer does not primarily write code; rather, he primarily writes to another programmer about his problem solution. The understanding of this fact is the final step in his maturation as technician.
+>
+> — What a Programmer Does, 1967
+
+Table of Contents
+
+* Linting
+  * Naming
+  * Comments
+  * Modules
+  * Regular Expressions
+  * Structs
+  * Exceptions
+  * ExUnit
+
+The following section are..."
+e3442622aecc,30 Java Programming Tips for Beginners,Java,backend,Enterprise & JVM Languages,Java Best Practices,community,https://www.javacodegeeks.com/2015/06/java-programming-tips-best-practices-beginners.html,"beginners, best, best practices, enterprise, for, java, jvm, languages, performance, practices, programming, testing, tips","30 Java Programming Tips for Beginners
+
+> Source: https://www.javacodegeeks.com/2015/06/java-programming-tips-best-practices-beginners.html
+
+Java is one of the most popular programming languages – be it Win applications, Web Applications, Mobile, Network, consumer electronic goods, set top box devices, Java is everywhere.
+
+More than 3 Billion devices run on Java. According to Oracle, 5 billion Java Cards are in use.
+
+More than 9 Million developers choose to write their code in Java and it is..."
+c2093d68b64e,AI Best Practices (XenonStack Blog),AI/ML Engineering Best Practices,general,AI/ML Engineering Best Practices,,community,https://www.xenonstack.com/blog/ai-best-practices,"ai, best, best practices, blog, engineering, ml, monitoring, practices, security, xenonstack","AI Best Practices (XenonStack Blog)
+
+> Source: https://www.xenonstack.com/blog/ai-best-practices
+
+Artificial Intelligence Best Practices for Adoption
+
+12:32
+
+Understanding the AI Applications Landscape
+
+Developers must understand the AI landscape, including machine learning, deep learning, and natural language processing subfields. They can innovate and improve user experiences across sectors by leveraging these technologies. It's crucial to stay updated with the latest trends and challenges of..."
+8273745b0080,React Interview Questions & Answers,Frameworks & Libraries,general,Frameworks & Libraries,ReactJS Best Practices,open-source,https://github.com/sudheerj/reactjs-interview-questions,"answers, best, frameworks, frontend, interview, jsx, libraries, practices, questions, react, reactjs","React Interview Questions & Answers
+
+> Source: https://github.com/sudheerj/reactjs-interview-questions
+
+React Interview Questions & Answers
+
+> Click :star: if you like the project. Pull Requests are highly appreciated. Follow me @SudheerJonna for technical updates.
+
+  
+    
+  
+
+> Practice 280+ JavaScript coding interview questions in-browser. Built by ex-FAANG interviewers. No AI-generated fluff. No fake reviews. Try GreatFrontEnd → 💡
+
+  
+    
+  
+
+ > I recommend this React course to become top..."
+ef1d63a1b4bf,HTML Best Practices,HTML,frontend,Core Technologies,HTML Best Practices,open-source,https://github.com/hail2u/html-best-practices,"best, best practices, core, html, practices, technologies","HTML Best Practices
+
+> Source: https://github.com/hail2u/html-best-practices
+
+Translations: English · বাংলা · Dansk · Deutsch · Español · فارسی · Français · Indonesia · 日本語 · 한국어 · Português (BR) · Română · Русский · Türkçe · Українська · Tiếng Việt · 简体中文 · 正體中文
+
+HTML Best Practices
+
+For writing maintainable and scalable HTML documents
+
+General
+
+Start with DOCTYPE
+
+DOCTYPE is required for activating no-quirks mode.
+
+Bad:
+
+    
+      ...
+    
+
+Good:
+
+    
+    
+      ...
+    
+
+Don’t use legacy..."
+db5c5b7bedf3,Ruby Best Practices for Beginners,Ruby,backend,Web Backend,Ruby Best Practices,community,https://deepsource.io/blog/ruby-dev-best-practices-for-beginners/,"backend, beginners, best, best practices, for, practices, rails, rb, ror, ruby, web","Ruby Best Practices for Beginners
+
+> Source: https://deepsource.io/blog/ruby-dev-best-practices-for-beginners/
+
+On this page
+
+* ""Okonomi""
+* ""Omakase""
+
+Last updated on Jan 13, 2021
+
+Python's dominance is never really questioned when it comes to the best
+for programming novices because it checks almost every box that defines
+a simple language. It's remarkably easy to pick up and can rise to any
+challenge. But what about Ruby?
+
+Although it does not get enough credit for being one, Ruby is an..."
+15dbbb274bf1,10 NoSQL Data Modeling Best Practices,NoSQL & Big Data,general,NoSQL & Big Data,NoSQL Best Practices,community,https://climbtheladder.com/10-nosql-data-modeling-best-practices/,"best, best practices, big, data, database, modeling, nosql, performance, practices, scalability, sql","10 NoSQL Data Modeling Best Practices
+
+> Source: https://climbtheladder.com/10-nosql-data-modeling-best-practices/
+
+NoSQL databases are becoming increasingly popular for their scalability and flexibility. But with this flexibility comes the challenge of data modeling. It’s important to understand the best practices for NoSQL data modeling in order to ensure that your data is organized in a way that is efficient and effective.
+
+In this article, we’ll discuss 10 NoSQL data modeling best practices..."
+b074ec49707c,Credo's Elixir Style Guide,Functional & Specialized,general,Functional & Specialized,Elixir Best Practices,open-source,https://github.com/rrrene/elixir-style-guide,"best, credo, elixir, functional, guide, practices, specialized, style, style guide","Credo's Elixir Style Guide
+
+> Source: https://github.com/rrrene/elixir-style-guide
+
+Credo's Elixir Style Guide [](https://beta.hexfaktor.org/github/rrrene/elixir-style-guide)
+
+Prelude
+
+There are two reasons for this document to exist:
+
+- It is my personal style guide and consists both of the way I write Elixir today, but more importantly of things I've seen in the wild and adapted because they make Elixir more readable for open source Alchemists everywhere.
+- Secondly, it is the basis for Credo..."
+ad7bee575702,React Native Guide,React Native,mobile,Frameworks & Libraries,React Native Best Practices,open-source,https://github.com/reactnativecn/react-native-guide,"api, best, frameworks, frontend, guide, jsx, libraries, native, practices, react, reactjs","React Native Guide
+
+> Source: https://github.com/reactnativecn/react-native-guide
+
+React-Native学习指南
+本指南汇集React-Native各类学习资源，给大家提供便利。指南正在不断的更新，大家有好的资源欢迎Pull Requests！
+
+同时还有Awesome React Native系列
+https://github.com/jondot/awesome-react-native
+
+目录
+* 教程
+ * React Native
+ * React.js
+ * ES6
+ * 系列教程
+* 开源APP
+* 图书
+* 组件
+* 工具
+* 资源网站
+* 业界讨论
+
+教程
+
+React Native
+
+* **构建 Facebook F8 2016 App / React Native 开发指南**
+http://f8-app.liaohuqiu.net/
+
+*..."
+656f541800b6,Best Practices for Deep Learning in Julia (FastAI.jl),AI/ML Engineering Best Practices,general,AI/ML Engineering Best Practices,,open-source,https://github.com/FluxML/FastAI.jl,"ai, api, best, best practices, deep, engineering, fastai.jl, for, in, julia, learning, ml, practices, rest","Best Practices for Deep Learning in Julia (FastAI.jl)
+
+> Source: https://github.com/FluxML/FastAI.jl
+
+FastAI.jl
+
+FastAI.jl is a Julia library for training state-of-the art deep learning models.
+
+From loading datasets and creating data preprocessing pipelines to training, FastAI.jl takes the boilerplate out of deep learning projects. It equips you with reusable components for every part of your project while remaining customizable at every layer. FastAI.jl comes with support for common computer..."
+e9b610dd0ecc,R Coding Style Best Practices,R Best Practices,general,R Best Practices,,community,https://www.datanovia.com/en/blog/r-coding-style-best-practices/,"best, best practices, coding, practices, rest, style, style guide","R Coding Style Best Practices
+
+> Source: https://www.datanovia.com/en/blog/r-coding-style-best-practices/
+
+[](https://www.datanovia.com/en/blog/r-coding-style-best-practices/ ""R Coding Style Best Practices"")
+
+06 Mar
+
+R Coding Style Best Practices
+
+Alboukadel
+
+ | 
+
+R Programming
+
+ | 
+
+0
+
+11
+
+Share
+
+This article describes the essentials of **R coding style** best practices. It’s based on the tidyverse style guide. Google’s current guide is also derived from the tidyverse style guide.
+
+Two..."
+8bc575067655,Ruby Timeouts Guide,Ruby,backend,Web Backend,Ruby Best Practices,open-source,https://github.com/ankane/the-ultimate-guide-to-ruby-timeouts,"api, backend, best, database, guide, optimization, practices, rails, rb, ror, ruby, sql, timeouts, web","Ruby Timeouts Guide
+
+> Source: https://github.com/ankane/the-ultimate-guide-to-ruby-timeouts
+
+The Ultimate Guide to Ruby Timeouts
+
+An unresponsive service can be worse than a down one. It can tie up your entire system if not handled properly. **All network requests should have a timeout.**
+
+Here’s how to add timeouts for popular Ruby gems. **All have been tested**. You should avoid Ruby’s `Timeout` module. The default is no timeout, unless otherwise specified. Enjoy!
+
+Also available for Python,..."
+7cfa2cbed43e,MongoDB Schema Design Best Practices,NoSQL & Big Data,general,NoSQL & Big Data,NoSQL Best Practices,community,https://www.mongodb.com/developer/products/mongodb/mongodb-schema-design-best-practices/,"best, best practices, big, data, database, design, design patterns, mongodb, nosql, performance, practices, schema","MongoDB Schema Design Best Practices
+
+> Source: https://www.mongodb.com/developer/products/mongodb/mongodb-schema-design-best-practices/
+
+Docs Home
+
+ / 
+
+Development
+
+ / 
+
+Data Modeling
+
+Docs Home
+
+ / 
+
+Development
+
+ / 
+
+Data Modeling
+
+Docs Home
+
+ / 
+
+Development
+
+ / 
+
+Data Modeling
+
+Schema Design Patterns
+
+Copy page
+
+Use schema design patterns to optimize your data model based on how your
+application queries and uses data.
+
+Handle Computed Values
+:   Perform calculations in the database so..."
+8df1341d1887,Kotlin Style Guide,Kotlin,backend,Enterprise & JVM Languages,Kotlin Best Practices,open-source,https://github.com/yole/kotlin-style-guide,"best, enterprise, guide, jvm, kotlin, languages, practices, style, style guide","Kotlin Style Guide
+
+> Source: https://github.com/yole/kotlin-style-guide
+
+kotlin-style-guide
+
+This is an obsolete archived repository. For any questions, issues or suggestions about the official style guide, please use public Kotlin Slack or YouTrack bugtracker.
+
+This repository is intended to discuss the guidance given in the Kotlin style guide. 
+Every suggested style rule is a separate issue.
+Issues where a sufficient amount of consensus has been reached are closed, and the rules are moved to..."
+344bb59fdd0e,Tips & Best Practices (Vue 0.12),Vue.js,frontend,Frameworks & Libraries,Vue Best Practices,community,https://012.vuejs.org/guide/best-practices.html,"best, best practices, frameworks, libraries, practices, tips, vue, vuejs","Tips & Best Practices (Vue 0.12)
+
+> Source: https://012.vuejs.org/guide/best-practices.html
+
+Tips & Best Practices
+
+Data Initialization
+
+Vue’s data observation model favors deterministic data models. It is recommended to initialize all the data properties that needs to be reactive upfront in the `data` option. For example, given the following template:
+
+|  |  |
+| --- | --- |
+| ``` 1 2 3 4 ``` | ```    {{message}}     ``` |
+
+It’s recommended to initialize your data like this instead of an empty..."
+f4f6e1523a43,Design Patterns in Ruby,Ruby,backend,Web Backend,Ruby Best Practices,standard,https://refactoring.guru/design-patterns/ruby,"backend, best, design, design patterns, in, patterns, practices, rails, rb, refactoring, ror, ruby, web","Design Patterns in Ruby
+
+> Source: https://refactoring.guru/design-patterns/ruby
+
+Design Patterns in Ruby
+
+The Catalog of **Ruby** Examples
+
+Creational Patterns
+
+Abstract Factory
+
+Lets you produce families of related objects without specifying their concrete classes.
+
+Main article
+
+Usage in Ruby
+
+Code example
+
+Builder
+
+Lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+
+Main..."
+ca77920e3d7f,ETL Best Practices with Airflow,AI/ML Engineering Best Practices,general,AI/ML Engineering Best Practices,,open-source,https://github.com/gtoonstra/etl-with-airflow,"ai, airflow, best, best practices, engineering, etl, ml, practices, rest, with","ETL Best Practices with Airflow
+
+> Source: https://github.com/gtoonstra/etl-with-airflow
+
+*** Welcome to the ETL Best practices with airflow repository.
+
+This is the source code for all the documentation, which is hosted at:
+
+https://gtoonstra.github.io/etl-with-airflow/
+
+** Disclaimer
+
+This is not the official documentation site for
+Apache airflow. This site is not affiliated, monitored or controlled by
+the official Apache Airflow development effort. If you are looking for
+the official..."
+64ceae4be46f,Frontend Guidelines,HTML,frontend,Core Technologies,HTML Best Practices,open-source,https://github.com/bendc/frontend-guidelines,"best, core, frontend, guidelines, html, practices, technologies","Frontend Guidelines
+
+> Source: https://github.com/bendc/frontend-guidelines
+
+Frontend Guidelines
+
+HTML
+
+Semantics
+
+HTML5 provides us with lots of semantic elements aimed to describe precisely the content. Make sure you benefit from its rich vocabulary.
+
+```html
+
+  
+    
+      Blog post
+      Published: 21st Feb, 2015
+    
+    …
+  
+
+  
+    
+      Blog post
+      Published: 21st Feb, 2015
+    
+    …
+  
+
+```
+
+Make sure you understand the semantics of the elements you're using. It's worse to use a..."
+67624599aae6,11 MongoDB Security Features & Best Practices,NoSQL & Big Data,general,NoSQL & Big Data,NoSQL Best Practices,community,https://satoricyber.com/mongodb-security/11-mongodb-security-features-and-best-practices/,"authentication, authorization, best, best practices, big, data, database, features, mongodb, monitoring, nosql, practices, security, sql","11 MongoDB Security Features & Best Practices
+
+> Source: https://satoricyber.com/mongodb-security/11-mongodb-security-features-and-best-practices/
+
+Skip to content
+
+11 MongoDB Security Features and Best Practices
+
+Home | Learning Center | MongoDB Security |
+
+11 MongoDB Security Features and Best Practices
+
+11 MongoDB Security Features and Best Practices
+
+What is MongoDB Security?
+
+MongoDB is an open source NoSQL database system that stores and manages document-oriented data. You can use MongoDB..."
+a27bc6e1372b,Kotlin Style Guide (Ray Wenderlich),Kotlin,backend,Enterprise & JVM Languages,Kotlin Best Practices,open-source,https://github.com/raywenderlich/kotlin-style-guide,"best, enterprise, guide, jvm, kotlin, languages, practices, ray, style, style guide, wenderlich","Kotlin Style Guide (Ray Wenderlich)
+
+> Source: https://github.com/raywenderlich/kotlin-style-guide
+
+The Official Kodeco Kotlin Style Guide
+
+This style guide is different from others you may see, because the focus is centered on readability for print and the web. We created this style guide to keep the code in our tutorials consistent.
+
+Our overarching goals are __conciseness__, __readability__ and __simplicity__.
+
+You should also check out our other style guides:
+
+* Swift
+* Objective-C
+*..."
+09c61568d4dc,Awesome Lists,Get Involved,general,Get Involved,Contributors,open-source,https://github.com/sindresorhus/awesome,"awesome, backend, cloud, contributors, get, involved, lists","Awesome Lists
+
+> Source: https://github.com/sindresorhus/awesome
+
+	
+	
+	
+	
+	
+	
+		Check out my macOS app
+		
+		
+			Supercharge
+			
+			Elevate your Mac experience
+		
+	
+	
+	
+	
+	
+	
+	
+		
+			My open source work is supported by the community
+		
+	
+	
+		Special thanks to:
+		
+		
+		
+		
+			
+				
+			
+			Effortless backends with infrastructure from code
+			
+				An open-source framework that supports any programming language, cloud provider, or deployment automation tool.
+			
+		
+		
+		
+		
+		
+			Wispr..."
+751dfee5fcb7,10 Good Practices for Large Vue.js Projects,Vue.js,frontend,Frameworks & Libraries,Vue Best Practices,community,https://www.telerik.com/blogs/10-good-practices-building-maintaining-large-vuejs-projects,"best, cloud, for, frameworks, good, large, libraries, practices, projects, vue, vue.js, vuejs","10 Good Practices for Large Vue.js Projects
+
+> Source: https://www.telerik.com/blogs/10-good-practices-building-maintaining-large-vuejs-projects
+
+[](/blogs)
+
+10 Good Practices for Building and Maintaining Large Vue.js Projects
+
+by Nada Rifki
+
+Last Updated: March 17, 2022
+
+Published: October 22, 2019
+9 min read
+
+Web, Vue 
+
+0 Comments
+
+Summarize with AI:
+
+ChatGPT
+Perplexity
+Claude
+Grok
+
+Here are the top best practices I've developed while working on Vue projects with a large code base. These tips..."
+5a1738531773,9 of the Best AI Tools for Software Developers in 2024,AI Tools for Developers,general,AI Tools for Developers,,community,https://www.stepsize.com/blog/best-ai-tools-for-software-developers,"ai, best, developers, for, in, of, security, software, the, tools","9 of the Best AI Tools for Software Developers in 2024
+
+> Source: https://www.stepsize.com/blog/best-ai-tools-for-software-developers
+
+Products
+
+.svg)
+
+Use Cases
+
+.svg)
+
+PricingSecurity
+
+Resources
+
+.svg)
+
+Try ClickUp
+
+Products
+
+.svg)
+
+PricingSecurity
+
+Resources
+
+.svg)
+
+Try ClickUp
+
+9 of the Best AI Tools for Software Developers in 2025
+
+Ruth Dillon-Mansfield
+
+11
+
+May
+
+2025
+
+|
+
+4 min read
+
+We've picked out 9 best-in-class AI tools and software for software developers and software engineers. 1...."
+ec391c8aaa78,Best Practices for Writing Ruby,Ruby,backend,Web Backend,Ruby Best Practices,community,https://reintech.io/blog/best-practices-for-writing-ruby,"backend, best, best practices, for, practices, rails, rb, ror, ruby, style guide, web, writing","Best Practices for Writing Ruby
+
+> Source: https://reintech.io/blog/best-practices-for-writing-ruby
+
+All
+Recruiting
+Engineering
+Career
+Managing
+Soft Skills
+Success stories
+
+Hire JavaScript Developers
+|
+Hire Expert Java Developers for Your Remote Team
+|
+Hire Python Developers for Seamless Remote Tech Team Building
+
+May 19, 2023
+
+·
+Updated:
+January 09, 2026
+
+·
+8 min read
+
+·
+views 4364
+
+·
+Arthur C. Codex
+
+EngineeringRubyRuby On Rails
+
+Best Practices for Writing Ruby
+
+Ruby's elegance stems from its..."
+1abca857a4cb,Google HTML Style Guide,HTML,frontend,Core Technologies,HTML Best Practices,industry-leader,https://google.github.io/styleguide/htmlcssguide.html#HTML,"api, best, core, google, guide, html, practices, style, style guide, technologies","Google HTML Style Guide
+
+> Source: https://google.github.io/styleguide/htmlcssguide.html#HTML
+
+Google HTML/CSS Style Guide
+
+Background
+
+This document defines formatting and style rules for HTML and CSS. It aims at
+improving collaboration, code quality, and enabling supporting infrastructure.
+It applies to raw, working files that use HTML and CSS, including Sass and GSS
+files. Tools are free to obfuscate, minify, and compile as long as the general
+code quality is maintained.
+
+General
+
+General..."
+610392b229a8,Performance Best Practices,Flutter Best Practices,general,Flutter Best Practices,,community,https://flutter.dev/docs/perf/rendering/best-practices,"api, best, best practices, database, flutter, performance, practices","Performance Best Practices
+
+> Source: https://flutter.dev/docs/perf/rendering/best-practices
+
+Watch on YouTube in a new tab: ""Flutter performance tips | Flutter in Focus""
+
+What is performance? Why is performance important? How do I improve performance?
+
+Our goal is to answer those three questions (mainly the third one), and
+anything related to them. This document should serve as the single entry
+point or the root node of a tree of resources that addresses any questions
+that you have about..."
+6253c00db922,Scala Best Practices,Scala,backend,Enterprise & JVM Languages,Scala Best Practices,open-source,https://github.com/alexandru/scala-best-practices,"best, best practices, enterprise, jvm, languages, practices, scala","Scala Best Practices
+
+> Source: https://github.com/alexandru/scala-best-practices
+
+Scala Best Practices
+
+[](https://gitter.im/alexandru/scala-best-practices?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+A collection of best practices, friendly to people that want to
+contribute.
+
+- Version: `1.2`
+- Updated at: `2016-06-08`
+
+Table of Contents
+
+- 0. Preface
+  - 0.1 MUST NOT follow advice blindly
+
+- 1. Hygienic Rules
+  - 1.1. SHOULD enforce a reasonable line length
+  -..."
+94301f0f5e44,The Best AI Tools for Developers in 2024,AI Tools for Developers,general,AI Tools for Developers,,community,https://daily.dev/blog/the-best-ai-tools-for-developers-in-2024,"ai, api, best, developers, for, in, rest, security, the, tools","The Best AI Tools for Developers in 2024
+
+> Source: https://daily.dev/blog/the-best-ai-tools-for-developers-in-2024
+
+In 2024, developers have a wealth of AI tools at their disposal, designed to streamline coding tasks, enhance productivity, and foster innovation. These tools vary in capabilities, language support, ease of use, and pricing, making it crucial for developers to choose the right ones for their specific needs. From code completion and documentation to security and integration with..."
+9f6bcc71c6f7,6 Ruby Best Practices for Beginners,Ruby,backend,Web Backend,Ruby Best Practices,community,https://www.codementor.io/ruby-on-rails/tutorial/6-ruby-best-practices-beginners-should-know,"aws, backend, beginners, best, best practices, for, practices, rails, rb, ror, ruby, web","6 Ruby Best Practices for Beginners
+
+> Source: https://www.codementor.io/ruby-on-rails/tutorial/6-ruby-best-practices-beginners-should-know
+
+Tutorials
+ / 
+Ruby on Rails
+
+6 Ruby Best Practices Beginners Should Know
+
+#Ruby on Rails
+
+– {{showDate(postTime)}}
+
+The Ruby language was developed by Yukihiro Matsumoto (“Matz”) in 1995. The language was designed to be object-oriented, intuitive, and easy to learn to optimize for developer time. As “Matz” once said:
+
+*“…in fact we need to focus on humans,..."
+416c2f900c3d,Airbnb CSS / Sass Styleguide,CSS,frontend,Core Technologies,CSS Best Practices,industry-leader,https://github.com/airbnb/css,"airbnb, best, core, css, practices, rest, sass, styleguide, technologies","Airbnb CSS / Sass Styleguide
+
+> Source: https://github.com/airbnb/css
+
+| :exclamation: Deprecation Notice |
+|:-|
+|We want to express our sincere gratitude for your support and contributions to this open source project. As we are no longer using this technology internally, we have come to the decision to archive this repository. While we won't be providing further updates or support, the existing code and resources will remain accessible for your reference. We encourage anyone interested to fork..."
+3e2033fc37ad,Free Programming Books,Get Involved,general,Get Involved,Contributors,open-source,https://github.com/EbookFoundation/free-programming-books,"books, contributors, free, get, involved, programming","Free Programming Books
+
+> Source: https://github.com/EbookFoundation/free-programming-books
+
+List of Free Learning Resources In Many Languages
+
+[](https://github.com/sindresorhus/awesome)&#160;
+[](https://creativecommons.org/licenses/by/4.0/)&#160;
+[](https://github.com/EbookFoundation/free-programming-books/pulls?q=is%3Apr+is%3Amerged+created%3A2025-10-01..2025-10-31)
+
+Search the list at https://ebookfoundation.github.io/free-programming-books-search/..."
+43b752e9a776,Databricks Scala Guide,Scala,backend,Enterprise & JVM Languages,Scala Best Practices,open-source,https://github.com/databricks/scala-style-guide,"aws, best, databricks, enterprise, guide, jvm, languages, practices, scala","Databricks Scala Guide
+
+> Source: https://github.com/databricks/scala-style-guide
+
+Databricks Scala Guide
+
+At Databricks, our engineers work on some of the most actively developed Scala codebases in the world, including our own internal repo called ""universe"" as well as the various open source projects we contribute to, e.g. Apache Spark and Delta Lake. This guide draws from our experience coaching and working with our engineering teams as well as the broader open source community.
+
+Code is..."
+ce6ff8a7bd1e,Elixir Cheatsheet,Functional & Specialized,general,Functional & Specialized,Elixir Best Practices,community,https://devhints.io/elixir,"best, cheatsheet, elixir, functional, practices, specialized","Elixir Cheatsheet
+
+> Source: https://devhints.io/elixir
+
+Getting started
+
+Hello world
+
+```
+hello.exs
+defmodule Greeter do
+  def greet(name) do
+    message = ""Hello, "" <> name <> ""!""
+    IO.puts message
+  end
+end
+
+Greeter.greet(""world"")
+```
+
+```
+elixir hello.exs
+Hello, world!
+```
+
+Variables
+
+```
+age = 23
+```
+
+Maps
+
+```
+user = %{
+  name: ""John"",
+  city: ""Melbourne""
+}
+```
+
+```
+IO.puts ""Hello, "" <> user.name
+```
+
+Lists
+
+```
+users = [ ""Tom"", ""Dick"", ""Harry"" ]
+```
+
+```
+Enum.map(users, fn user ->
+ ..."
+e35c5e6f8150,AngularJS Style Guide,Angular,frontend,Frameworks & Libraries,Angular Best Practices,open-source,https://github.com/mgechev/angularjs-style-guide,"angular, angularjs, best, best practices, frameworks, guide, libraries, ng, practices, style, style guide","AngularJS Style Guide
+
+> Source: https://github.com/mgechev/angularjs-style-guide
+
+[](https://gitter.im/mgechev/angularjs-style-guide?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+Introduction
+
+The goal of this style guide is to present a set of best practices and style guidelines for one AngularJS application.
+These best practices are collected from:
+
+0. AngularJS source code
+0. Source code or articles I've read
+0. My own experience
+
+**Note 1**: this is still a..."
+88ad64c91460,Awesome AI Tools,AI Tools for Developers,general,AI Tools for Developers,,open-source,https://github.com/mahseema/awesome-ai-tools,"ai, awesome, developers, for, tools","Awesome AI Tools
+
+> Source: https://github.com/mahseema/awesome-ai-tools
+
+Awesome AI Tools [](https://awesome.re)
+
+> A curated list of Artificial Intelligence Top Tools
+>
+> Feel free to contribute and also submit your AI tools on altern.ai for free
+
+Welcome to Awesome AI Tools! Dive into my curated list of AI list, featuring top generative ai tools and LLMs. Eager to contribute or feature your product? Send a PR to this repo—it's free! Join my growing AI list of products and stay on the edge of..."
+3ceea63caed2,C# Coding Best Practices – Conventions with Examples,C/C++,systems,Enterprise & JVM Languages,C Best Practices,community,https://www.freecodecamp.org/news/coding-best-practices-in-c-sharp/,"api, best, best practices, coding, conventions, enterprise, examples, jvm, languages, practices, with","C# Coding Best Practices – Conventions with Examples
+
+> Source: https://www.freecodecamp.org/news/coding-best-practices-in-c-sharp/
+
+Israel Chidera
+
+Coding conventions ensure that your code is consistent, readable, understandable, and maintainable.
+
+When it comes to writing clean and quality code, there are conventions developers should follow to make this possible.
+
+There are a few things you should keep in mind while writing your code. In this article, we will learn about the best coding..."

@@ -1,110 +1,155 @@
 ---
-name: best-practices
-description: Use when writing, reviewing, or discussing code in any programming language. Provides coding standards, style guides, and best practices from industry leaders like Airbnb, Google, and Uber. Covers 30+ languages including JavaScript, TypeScript, Python, Go, Ruby, Rails, Java, Rust, C++, PHP, and more. Also use when asked about code quality, clean code, design patterns, or coding conventions.
+inclusion: auto
 ---
 
-# Programming Best Practices Knowledge Base
+# best-practices
 
-You have access to a curated collection of coding standards and best practices across 30+ languages. When helping with code, reference these authoritative resources.
+Searchable knowledge base of 152+ programming best practices across 30+ languages and frameworks. BM25-powered search over curated resources from industry leaders (Google, Airbnb, Uber, Mozilla, Shopify, OWASP).
 
-## Featured Resources (Highest Priority)
+## Prerequisites
 
-| Topic | Resource | When to Cite |
-|-------|----------|-------------|
-| JavaScript Style | [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) | Any JS code review or style question |
-| Clean Code JS | [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript) | Code quality, refactoring, principles |
-| System Design | [System Design 101](https://github.com/ByteByteGoHq/system-design-101) | Architecture questions |
-| Cloud Native | [The Twelve-Factor App](https://12factor.net/) | Cloud deployment, app structure |
-| Security | [OWASP Top 10](https://owasp.org/www-project-top-ten/) | Security reviews |
-| Go Style | [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md) | Go code |
-| Ruby Style | [Community Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) | Ruby code |
-| Design Patterns | [Refactoring.Guru](https://refactoring.guru/design-patterns) | Pattern selection |
+Python 3 must be installed:
 
-## Language-Specific Resources
+```bash
+python3 --version
+```
 
-### JavaScript / TypeScript
-- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-- [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
-- [ES6 Cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
-- [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
-- [TypeScript Best Practices](https://github.com/BestCoderDotInfo/TypeScript-best-practices)
+## How to Use This Workflow
 
-### Python
-- [Best of the Best Practices (BOBP) Guide](https://gist.github.com/sloria/7001839)
-- [Python Code Style Guide](https://docs.python-guide.org/writing/style/)
-- [Design Patterns in Python](https://refactoring.guru/design-patterns/python)
-- [11 Tips to Write Better Python Code](https://www.python-engineer.com/posts/11-tips-to-write-better-python-code/)
+When user asks about coding standards, best practices, style guides, code review, architecture, security, or performance for any language/framework, follow this workflow:
 
-### Go
-- [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md)
-- [Go Best Practices](https://github.com/mehrdadrad/GoBestPractices)
-- [Design Patterns in Go](https://refactoring.guru/design-patterns/go)
-- [Golang Tutorial Series](https://golangbot.com/learn-golang-series/)
+### Step 1: Analyze User Requirements
 
-### Ruby / Rails
-- [Ruby Style Guide (Airbnb)](https://github.com/airbnb/ruby)
-- [Ruby Style Guide (bbatsov)](https://github.com/bbatsov/ruby-style-guide)
-- [Rails Style Guide](https://github.com/bbatsov/rails-style-guide)
-- [Production Rails](https://github.com/ankane/production_rails)
-- [RSpec Best Practices](https://github.com/abinoda/rspec-best-practices)
+Extract from user request:
+- **Language/Framework**: Python, JavaScript, Go, React, Rails, etc.
+- **Topic**: style guide, design patterns, performance, security, clean code, etc.
+- **Depth**: quick reference vs. deep dive
 
-### Java / Kotlin
-- [Java Best Practices](https://github.com/in28minutes/java-best-practices)
-- [Kotlin Best Practices](https://github.com/JackyAndroid/kotlin-best-practices)
+### Step 2: Search Best Practices (REQUIRED)
 
-### Rust
-- [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
-- [Design Patterns in Rust](https://refactoring.guru/design-patterns/rust)
+**Always start with `--recommend`** to get comprehensive results (resources + deep content):
 
-### C / C++
-- [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
-- [Collaborative C++ Best Practices](https://github.com/lefticus/cppbestpractices)
+```bash
+python3 skills/best-practices/scripts/search.py "<language> <topic>" --recommend
+```
 
-### PHP / Laravel
-- [PHP: The Right Way](https://github.com/codeguy/php-the-right-way)
-- [Laravel Best Practices](https://github.com/uonick/laravel-best-practices)
+**Examples:**
+```bash
+python3 skills/best-practices/scripts/search.py "python style guide" --recommend
+python3 skills/best-practices/scripts/search.py "javascript clean code" --recommend
+python3 skills/best-practices/scripts/search.py "react performance" --recommend
+python3 skills/best-practices/scripts/search.py "sql optimization" --recommend
+python3 skills/best-practices/scripts/search.py "api security" --recommend
+```
 
-### React / Vue / Angular
-- [Advanced React Patterns](https://github.com/kentcdodds/advanced-react-patterns-v2)
-- [Vue Best Practices](https://learnvue.co/2020/01/12-vuejs-best-practices-for-pro-developers/)
-- [Angular Style Guide](https://github.com/mgechev/angularjs-style-guide)
+### Step 3: Supplement with Domain Searches (as needed)
 
-### HTML / CSS
-- [HTML Best Practices](https://github.com/hail2u/html-best-practices)
-- [Airbnb CSS/Sass Styleguide](https://github.com/airbnb/css)
-- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+```bash
+# Search all resources (default)
+python3 skills/best-practices/scripts/search.py "<query>" --domain resource
 
-### SQL / Databases
-- [SQL Style Guide](https://www.sqlstyle.guide)
-- [PostgreSQL Performance Best Practices](https://www.adservio.fr/post/postgresql-performance-best-practices)
-- [MongoDB Schema Design Best Practices](https://www.mongodb.com/developer/products/mongodb/mongodb-schema-design-best-practices/)
+# Search by language/technology overview
+python3 skills/best-practices/scripts/search.py "<query>" --domain language
 
-### Mobile (Flutter / Dart / React Native)
-- [Flutter Performance Best Practices](https://flutter.dev/docs/perf/rendering/best-practices)
-- [Dart Best Practices](https://lazebny.io/flutter-best-practices/)
-- [React Native Guide](https://github.com/reactnativecn/react-native-guide)
+# Search by category
+python3 skills/best-practices/scripts/search.py "<query>" --domain category
 
-## Cross-Cutting Concerns
+# Deep search within crawled content files
+python3 skills/best-practices/scripts/search.py "<query>" --content
 
-### Security
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
-- [API Security Checklist](https://github.com/shieldfy/API-Security-Checklist)
+# Deep search filtered by language
+python3 skills/best-practices/scripts/search.py "<query>" --content --lang python
+```
 
-### Architecture
-- [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
-- [The Twelve-Factor App](https://12factor.net/)
+### Step 4: Read Deep Content (when needed)
 
-### Performance
-- [Frontend Performance Best Practices](https://roadmap.sh/best-practices/frontend-performance)
-- [Web Vitals (Google)](https://web.dev/vitals/)
+When a search result includes a `File` path, read it for detailed content:
 
-## How to Use This Skill
+```
+content/core_technologies/250af6826bbd.md  → Google JavaScript Style Guide
+content/web_backend/b8aad3894efa.md        → Python Code Style Guide
+```
 
-When reviewing or writing code:
-1. Identify the language/framework being used
-2. Reference the relevant style guide from above
-3. Cite specific resources when making suggestions
-4. Prioritize featured resources for common languages
-5. Apply Clean Code principles universally
+---
 
-When the user asks "what are the best practices for X?", provide the relevant links and summarize key points from the referenced guides.
+## Search Reference
+
+### Available Domains
+
+| Domain | Use For | Example |
+|--------|---------|---------|
+| `resource` | All 152+ resources with metadata | `"python best practices"` |
+| `language` | Language/tech overview with top resources | `"go"`, `"react"` |
+| `category` | Browse by category | `"frontend"`, `"security"` |
+
+### Content Search (--content)
+
+Searches within the actual crawled markdown files for deeper matches. Use `--lang` to filter by language.
+
+### Authority Levels
+
+Results are tagged with authority:
+- ⭐ `industry-leader` — Google, Airbnb, Uber, Mozilla, Microsoft, Shopify
+- 🏆 `standard` — OWASP, 12factor, Refactoring.Guru
+- `open-source` — GitHub community projects
+- `community` — Blog posts, tutorials
+
+---
+
+## Coverage
+
+### Languages & Frameworks (30+)
+
+| Domain | Technologies |
+|--------|-------------|
+| Backend | Python, Ruby, Rails, PHP, Laravel, Node.js, NestJS, Go, Java, Kotlin, Scala, C#, Elixir |
+| Frontend | JavaScript, TypeScript, HTML, CSS, SASS, React, Vue, Angular, Next.js, Nuxt |
+| Systems | C, C++, Rust |
+| Mobile | Swift, Objective-C, Flutter, Dart, React Native |
+| Database | SQL, PostgreSQL, MySQL, NoSQL/MongoDB |
+| DevOps | Bash, AWS, Microservices, Docker |
+| Security | OWASP, API Security, DevSecOps |
+| AI/ML | MLOps, LLM, Responsible AI |
+
+### Featured Resources (Must-Know)
+
+| Topic | Resource | Authority |
+|-------|----------|-----------|
+| JavaScript Style | Airbnb Style Guide | ⭐ industry-leader |
+| Clean Code | Clean Code JavaScript | open-source |
+| System Design | System Design 101 (ByteByteGo) | open-source |
+| Cloud Native | The Twelve-Factor App | 🏆 standard |
+| Security | OWASP Top 10 | 🏆 standard |
+| Go Style | Uber Go Style Guide | ⭐ industry-leader |
+| Ruby Style | Community Ruby Style Guide | open-source |
+| Design Patterns | Refactoring.Guru | 🏆 standard |
+
+---
+
+## Common Query Mapping
+
+| User Asks About | Search Query |
+|-----------------|-------------|
+| Code style for [language] | `"<language> style guide" --recommend` |
+| How to structure a project | `"system design architecture" --recommend` |
+| Security best practices | `"security owasp api" --recommend` |
+| Database optimization | `"sql postgresql optimization" --recommend` |
+| Frontend performance | `"frontend performance web vitals" --recommend` |
+| Code review checklist | `"code review best practices" --recommend` |
+| Cloud deployment | `"aws microservices cloud native" --recommend` |
+| Design patterns for [lang] | `"<language> design patterns" --recommend` |
+
+---
+
+## Rebuilding the CSV Database
+
+If new content is crawled, regenerate the CSVs:
+
+```bash
+python3 skills/best-practices/scripts/generate_csv.py
+```
+
+This reads `content/index.json` and produces:
+- `data/resources.csv` — All 152+ resources with metadata
+- `data/languages.csv` — Aggregated by language/technology
+- `data/categories.csv` — Aggregated by category
