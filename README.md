@@ -181,6 +181,17 @@ programing-best-practices/
 ├── README.md                   # Main knowledge base (curated links)
 ├── CLAUDE.md                   # Claude Code instructions
 ├── AGENTS.md                   # Universal AI agent instructions
+├── .claude-plugin/             # 🔌 Claude Code plugin manifest
+│   └── plugin.json
+├── skills/                     # 🧠 Claude Code auto-invoked skills
+│   ├── best-practices/         # Language & framework best practices
+│   │   └── SKILL.md
+│   └── security-review/        # Security audit skill
+│       └── SKILL.md
+├── commands/                   # ⚡ Claude Code slash commands
+│   ├── best-practices.md       # /best-practices [language]
+│   ├── review-code.md          # /review-code
+│   └── setup-standards.md      # /setup-standards [stack]
 ├── .agent/                     # Antigravity config
 │   ├── config.json
 │   └── instructions.md
@@ -188,7 +199,7 @@ programing-best-practices/
 │   └── project.md
 ├── .cursorrules                # Cursor AI rules
 ├── .windsurfrules              # Windsurf AI rules
-├── content/                    # 📦 Crawled content (after running crawler)
+├── content/                    # � Crawled content (after running crawler)
 │   ├── index.json              # Master index of all resources
 │   ├── metadata.yaml           # Crawl statistics
 │   ├── backend_development/    # Content organized by category
@@ -286,6 +297,29 @@ Download the templates from the [`/templates`](./templates) directory and custom
 | `cursorrules.template` | `.cursorrules` | Cursor |
 
 📖 **Full integration guide**: See [`docs/INTEGRATION.md`](./docs/INTEGRATION.md)
+
+### Option 4: Claude Code Plugin (Recommended for Claude Code users)
+
+Install directly as a Claude Code plugin for automatic best practices guidance:
+
+```bash
+# Install the plugin
+/plugin install dereknguyen269/programing-best-practices
+```
+
+Once installed, you get:
+
+| Feature | How to Use |
+|---------|-----------|
+| Auto best practices | Claude automatically references style guides when you write code |
+| Security reviews | Claude applies OWASP/security checklists during code review |
+| `/programming-best-practices:best-practices [language]` | Look up best practices for any language |
+| `/programming-best-practices:review-code` | Review current code against industry standards |
+| `/programming-best-practices:setup-standards [stack]` | Generate linter/formatter configs for your stack |
+
+The plugin includes two skills that Claude invokes automatically:
+- **best-practices** — Activated when writing or reviewing code in any of 30+ languages
+- **security-review** — Activated when reviewing code for vulnerabilities or security concerns
 
 ---
 

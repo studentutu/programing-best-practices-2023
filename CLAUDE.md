@@ -15,12 +15,40 @@ This knowledge base provides:
 
 ```
 programing-best-practices/
-├── README.md           # Main knowledge base document with all curated resources
-├── contributing.md     # Contribution guidelines
-├── LICENSE             # CC0 1.0 Universal License
+├── README.md                # Main knowledge base document with all curated resources
+├── .claude-plugin/          # Claude Code plugin manifest
+│   └── plugin.json
+├── skills/                  # Claude Code auto-invoked skills
+│   ├── best-practices/      # Language & framework best practices
+│   │   └── SKILL.md
+│   └── security-review/     # Security audit skill
+│       └── SKILL.md
+├── commands/                # Claude Code slash commands
+│   ├── best-practices.md    # /best-practices [language]
+│   ├── review-code.md       # /review-code
+│   └── setup-standards.md   # /setup-standards [stack]
+├── contributing.md          # Contribution guidelines
+├── LICENSE                  # CC0 1.0 Universal License
 └── .github/
-    └── FUNDING.yml     # GitHub sponsorship config
+    └── FUNDING.yml          # GitHub sponsorship config
 ```
+
+## 🔌 Claude Code Plugin
+
+This repository is a Claude Code plugin. Install it with:
+
+```
+/plugin install dereknguyen269/programing-best-practices
+```
+
+### Skills (Auto-Invoked)
+- **best-practices** — Claude automatically references style guides when writing or reviewing code in 30+ languages
+- **security-review** — Claude applies OWASP/security checklists during security-related code review
+
+### Slash Commands
+- `/programming-best-practices:best-practices [language]` — Look up best practices for any language
+- `/programming-best-practices:review-code` — Review current code against industry standards
+- `/programming-best-practices:setup-standards [stack]` — Generate linter/formatter configs for your stack
 
 ## 🎯 Coverage Areas
 
