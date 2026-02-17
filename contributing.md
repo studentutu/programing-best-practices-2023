@@ -43,10 +43,13 @@ You can suggest resources for:
 
 ## 🤖 AI Configuration Files
 
-This repository includes configuration files for AI coding assistants:
+This repository includes configuration files for AI coding assistants and is also a **Claude Code plugin**:
 
 | File | Purpose |
 |------|---------|
+| `.claude-plugin/plugin.json` | Claude Code plugin manifest |
+| `skills/` | Claude Code auto-invoked skills |
+| `commands/` | Claude Code slash commands |
 | `CLAUDE.md` | Claude Code instructions |
 | `AGENTS.md` | General AI agent instructions |
 | `.agent/` | Antigravity configuration |
