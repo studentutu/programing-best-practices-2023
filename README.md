@@ -411,6 +411,7 @@ Here are some standout resources that every developer should know:
 * [PHP](#php-best-practices)
 * [Laravel](#laravel-best-practices)
 * [NestJS](#nestjs-best-practices)
+* [GraphQL](#graphql-best-practices)
 
 #### Functional & Specialized
 * [Elixir](#elixir-best-practices)
@@ -440,8 +441,6 @@ Here are some standout resources that every developer should know:
 #### Performance
 * [Frontend Performance](#frontend-performance-best-practices)
 
-### 🔹 Database & Data
-
 #### SQL Databases
 * [SQL](#sql-best-practices)
 * [PostgreSQL](#postgresql-best-practices)
@@ -460,6 +459,8 @@ Here are some standout resources that every developer should know:
 #### Cloud & Deployment
 * [AWS](#aws-best-practices)
 * [Microservices & Cloud-Native](#microservices--cloud-native-best-practices)
+* [Docker](#docker-best-practices)
+* [Kubernetes](#kubernetes-best-practices)
 
 #### Security
 * [API Security](#api-security-best-practices)
@@ -473,10 +474,14 @@ Here are some standout resources that every developer should know:
 
 #### Version Control & Collaboration
 * [Code Review](#code-review-best-practices)
+* [Git](#git-best-practices)
 * [Team Collaboration](#team--collaboration-best-practices)
 
 #### Scripting & Automation
 * [Bash](#bash-script-best-practices)
+
+#### Testing
+* [General Testing](#general-testing-best-practices)
 
 #### Performance & Architecture
 * [System Design](#system-design-best-practices)
@@ -558,6 +563,8 @@ Here are some standout resources that every developer should know:
 
 * [Node.js Style Guide](https://github.com/felixge/node-style-guide) — *@felixge*
 * [RisingStack Node.js Style Guide](https://github.com/RisingStack/node-style-guide) — *@RisingStack*
+* [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) — *@goldbergyoni*
+* [Node.js Security Best Practices](https://nodejs.org/en/docs/guides/security/) — *Node.js Official*
 
 ---
 
@@ -570,6 +577,9 @@ Here are some standout resources that every developer should know:
 * [11 Tips to Write Better Python Code](https://www.python-engineer.com/posts/11-tips-to-write-better-python-code/)
 * [Python Tutorial: Best Practices & Mistakes](https://jaxenter.com/python-tutorial-best-practices-145959.html)
 * [Design Patterns in Python](https://refactoring.guru/design-patterns/python) — *Refactoring.Guru*
+* [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/) — *Python Official*
+* [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html) — *@google*
+* [Effective Python (Brett Slatkin)](https://effectivepython.com/)
 
 ---
 
@@ -625,6 +635,15 @@ Here are some standout resources that every developer should know:
 ### 🟣 NestJS Best Practices
 
 * [Best NestJS Practices and Advanced Techniques](https://dev.to/drbenzene/best-nestjs-practices-and-advanced-techniques-9m0)
+
+---
+
+### 🔷 GraphQL Best Practices
+
+* [GraphQL Best Practices (Official)](https://graphql.org/learn/best-practices/) — *GraphQL Official*
+* [Production Ready GraphQL](https://book.productionreadygraphql.com/)
+* [GraphQL Security Best Practices](https://escape.tech/blog/graphql-security-best-practices-guide/)
+* [Awesome GraphQL](https://github.com/chentsulin/awesome-graphql) — *@chentsulin*
 
 ---
 
@@ -734,6 +753,9 @@ Here are some standout resources that every developer should know:
 ### 🟦 TypeScript Best Practices
 
 * [TypeScript Best Practices](https://github.com/BestCoderDotInfo/TypeScript-best-practices) — *@BestCoderDotInfo*
+* [TypeScript Do's and Don'ts](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html) — *TypeScript Official*
+* [Clean Code TypeScript](https://github.com/labs42io/clean-code-typescript) — *@labs42io*
+* [TypeScript Style Guide (Google)](https://google.github.io/styleguide/tsguide.html) — *@google*
 
 ---
 
@@ -743,6 +765,10 @@ Here are some standout resources that every developer should know:
 
 * [Advanced ReactJS Patterns](https://github.com/kentcdodds/advanced-react-patterns-v2) — *@kentcdodds*
 * [React Interview Questions & Answers](https://github.com/sudheerj/reactjs-interview-questions) — *@sudheerj*
+* [React Best Practices (Airbnb)](https://github.com/airbnb/javascript/tree/master/react) — *@airbnb*
+* [React Patterns](https://reactpatterns.com/) — *@chantastic*
+* [React TypeScript Cheatsheet](https://github.com/typescript-cheatsheets/react) — *@typescript-cheatsheets*
+* [Bulletproof React](https://github.com/alan2207/bulletproof-react) — *@alan2207*
 
 ---
 
@@ -757,6 +783,8 @@ Here are some standout resources that every developer should know:
 * [Tips & Best Practices (Vue 0.12)](https://012.vuejs.org/guide/best-practices.html)
 * [10 Good Practices for Large Vue.js Projects](https://www.telerik.com/blogs/10-good-practices-building-maintaining-large-vuejs-projects)
 * [12 VueJS Best Practices for Pro Developers](https://learnvue.co/2020/01/12-vuejs-best-practices-for-pro-developers/)
+* [Vue.js Style Guide (Official)](https://vuejs.org/style-guide/) — *Vue.js Official*
+* [Vue Best Practices (Awesome Vue)](https://github.com/vuejs/awesome-vue) — *@vuejs*
 
 ---
 
@@ -868,6 +896,24 @@ Here are some standout resources that every developer should know:
 
 ---
 
+### 🐳 Docker Best Practices
+
+* [Docker Best Practices (Official)](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) — *Docker Official*
+* [Docker Security Best Practices](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) — *OWASP*
+* [Docker & Kubernetes Best Practices (Google)](https://cloud.google.com/architecture/best-practices-for-building-containers) — *@google*
+* [Awesome Docker](https://github.com/veggiemonk/awesome-docker) — *@veggiemonk*
+
+---
+
+### ☸️ Kubernetes Best Practices
+
+* [Kubernetes Best Practices (Google)](https://cloud.google.com/blog/products/containers-kubernetes/your-guide-kubernetes-best-practices) — *@google*
+* [Kubernetes Production Best Practices](https://learnk8s.io/production-best-practices) — *learnk8s*
+* [Kubernetes Security Best Practices](https://kubernetes.io/docs/concepts/security/security-checklist/) — *Kubernetes Official*
+* [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) — *@ramitsurana*
+
+---
+
 ## Security
 
 ### 🔐 API Security Best Practices
@@ -920,6 +966,18 @@ Here are some standout resources that every developer should know:
 ### 🔎 Code Review Best Practices
 
 * [Code Review Best Practices (Roadmap.sh)](https://roadmap.sh/best-practices/code-review)
+* [Google Code Review Developer Guide](https://google.github.io/eng-practices/review/) — *@google*
+* [Code Review Best Practices (Palantir)](https://github.com/palantir/gradle-baseline/blob/develop/docs/best-practices/code-reviews/README.md) — *@palantir*
+
+---
+
+### 🌿 Git Best Practices
+
+* [Git Best Practices (Seth Robertson)](https://sethrobertson.github.io/GitBestPractices/)
+* [Conventional Commits](https://www.conventionalcommits.org/) — *Conventional Commits*
+* [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/) — *@nvie*
+* [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) — *GitHub Official*
+* [Trunk Based Development](https://trunkbaseddevelopment.com/)
 
 ---
 
@@ -939,6 +997,18 @@ Here are some standout resources that every developer should know:
 * [progrium/bashstyle](https://github.com/progrium/bashstyle)
 * [Best Practices for Bash Scripts](https://hyperskill.org/learn/step/19230)
 * [Best Practices for Writing Bash Scripts](https://expeditor.chef.io/docs/patterns/bash-scripts/)
+
+---
+
+## Testing Best Practices
+
+### 🧪 General Testing Best Practices
+
+* [JavaScript Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices) — *@goldbergyoni*
+* [Unit Testing Best Practices (Microsoft)](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices) — *Microsoft*
+* [The Art of Unit Testing](https://www.artofunittesting.com/)
+* [Testing Best Practices (Martin Fowler)](https://martinfowler.com/testing/) — *@martinfowler*
+* [Test-Driven Development (TDD) Guide](https://testdriven.io/test-driven-development/) — *testdriven.io*
 
 ---
 
