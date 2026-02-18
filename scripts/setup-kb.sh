@@ -1,147 +1,138 @@
-#!/bin/bash
-
-# ============================================================================
-# Setup Programming Best Practices Knowledge Base for Your Project
-# ============================================================================
+#!/usr/bin/env bash
+# =============================================================================
+# setup-kb.sh — Integrate Programming Best Practices into your project
+# =============================================================================
 #
-# This script helps you integrate the Programming Best Practices knowledge base
-# into your existing project.
-#
-# Usage:
+# Usage (run from your project root):
 #   curl -sSL https://raw.githubusercontent.com/dereknguyen269/programing-best-practices/main/scripts/setup-kb.sh | bash
 #
-# Or download and run:
-#   chmod +x setup-kb.sh
-#   ./setup-kb.sh
+#   Or locally:
+#   chmod +x scripts/setup-kb.sh && ./scripts/setup-kb.sh
 #
-# ============================================================================
+# =============================================================================
 
 set -e
 
 REPO_URL="https://github.com/dereknguyen269/programing-best-practices"
-TEMPLATES_URL="https://raw.githubusercontent.com/dereknguyen269/programing-best-practices/main/templates"
+INSTALL_SCRIPT_URL="https://raw.githubusercontent.com/dereknguyen269/programing-best-practices/main/scripts/install-skill.py"
 
-# Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
-NC='\033[0m' # No Color
+CYAN='\033[0;36m'
+NC='\033[0m'
+
+# ── Helpers ───────────────────────────────────────────────────────────────────
+ok()   { echo -e "${GREEN}  ✓ $*${NC}"; }
+warn() { echo -e "${YELLOW}  ⚠ $*${NC}"; }
+fail() { echo -e "${RED}  ✗ $*${NC}"; exit 1; }
+step() { echo -e "\n${CYAN}▶ $*${NC}"; }
+
+PYTHON=$(command -v python3 || command -v python || true)
 
 echo -e "${BLUE}"
-echo "=============================================="
-echo "  Programming Best Practices - KB Setup"
-echo "=============================================="
+echo "════════════════════════════════════════════════"
+echo "  Programming Best Practices — Project Setup"
+echo "════════════════════════════════════════════════"
 echo -e "${NC}"
 
-# Check if we're in a git repository
-if [ ! -d ".git" ]; then
-    echo -e "${YELLOW}Warning: Not in a git repository root.${NC}"
-    read -p "Continue anyway? (y/n): " continue
-    if [ "$continue" != "y" ]; then
-        echo "Exiting."
-        exit 1
-    fi
+# ── Detect project root ───────────────────────────────────────────────────────
+PROJECT_ROOT="$(pwd)"
+if [ ! -d "$PROJECT_ROOT/.git" ]; then
+  warn "No .git found — running from: $PROJECT_ROOT"
+fi
+
+# ── Choose integration method ─────────────────────────────────────────────────
+echo "How would you like to integrate the knowledge base?"
+echo ""
+echo "  1) Kiro steering  — auto-included in every Kiro session (recommended)"
+echo "  2) Claude Code skill — auto-invoked when writing/reviewing code"
+echo "  3) Both           — install for Kiro + Claude Code"
+echo "  4) Git submodule  — add the full repo as a submodule"
+echo ""
+read -rp "Choose an option (1-4): " choice
+
+case $choice in
+  1) MODE="kiro" ;;
+  2) MODE="claude" ;;
+  3) MODE="both" ;;
+  4) MODE="submodule" ;;
+  *) fail "Invalid option." ;;
+esac
+
+# ── Submodule path ────────────────────────────────────────────────────────────
+if [ "$MODE" = "submodule" ]; then
+  step "Adding Git submodule..."
+  [ ! -d ".git" ] && fail "Git submodule requires a git repository."
+  mkdir -p .kb
+  git submodule add "$REPO_URL" .kb/best-practices
+  ok "Submodule added at .kb/best-practices"
+  echo ""
+  echo "  To update later:"
+  echo "    git submodule update --remote .kb/best-practices"
+  echo ""
+  echo -e "${GREEN}════════════════════════════════════════════════"
+  echo "  Done!"
+  echo -e "════════════════════════════════════════════════${NC}"
+  exit 0
+fi
+
+# ── Skill install path ────────────────────────────────────────────────────────
+[ -z "$PYTHON" ] && fail "Python not found. Install Python 3 first."
+
+# Crawl options
+echo ""
+echo "How much content to crawl?"
+echo ""
+echo "  1) Full  — all 150+ resources (~10-15 min)"
+echo "  2) Quick — 20 resources for a fast test (~2 min)"
+echo "  3) Skip  — use existing content/ if already crawled"
+echo ""
+read -rp "Choose an option (1-3): " crawl_choice
+
+case $crawl_choice in
+  1) CRAWL_OPT="" ;;
+  2) CRAWL_OPT="--crawl-limit 20" ;;
+  3) CRAWL_OPT="--skip-crawl" ;;
+  *) fail "Invalid option." ;;
+esac
+
+# ── Download install-skill.py if running via curl (not inside the repo) ───────
+INSTALL_SCRIPT="$(dirname "$0")/install-skill.py"
+
+if [ ! -f "$INSTALL_SCRIPT" ]; then
+  step "Downloading install-skill.py..."
+  TMP_DIR=$(mktemp -d)
+  curl -sSL "$INSTALL_SCRIPT_URL" -o "$TMP_DIR/install-skill.py" \
+    && ok "Downloaded install-skill.py" \
+    || fail "Failed to download install-skill.py"
+  INSTALL_SCRIPT="$TMP_DIR/install-skill.py"
+fi
+
+# ── Run installer ─────────────────────────────────────────────────────────────
+step "Installing best-practices skill (mode: $MODE)..."
+"$PYTHON" "$INSTALL_SCRIPT" "$PROJECT_ROOT" --mode "$MODE" --force $CRAWL_OPT \
+  && ok "Skill installed" \
+  || fail "Installation failed"
+
+# ── Post-install summary ──────────────────────────────────────────────────────
+echo ""
+echo -e "${GREEN}════════════════════════════════════════════════"
+echo "  Done!"
+echo -e "════════════════════════════════════════════════${NC}"
+echo ""
+
+if [ "$MODE" = "kiro" ] || [ "$MODE" = "both" ]; then
+  echo "  Kiro: .kiro/steering/best-practices/ (auto-included)"
+fi
+if [ "$MODE" = "claude" ] || [ "$MODE" = "both" ]; then
+  echo "  Claude Code: skills/best-practices/ (auto-invoked)"
 fi
 
 echo ""
-echo "How would you like to integrate the knowledge base?"
+echo "  To update resources later:"
+echo "    ./scripts/update.sh"
 echo ""
-echo "  1) Git Submodule (keeps KB updated with repo)"
-echo "  2) Copy Templates Only (static, no dependency)"
-echo "  3) Add References to Existing Config"
-echo ""
-read -p "Choose an option (1-3): " choice
-
-case $choice in
-    1)
-        echo -e "\n${GREEN}Setting up as Git Submodule...${NC}"
-        
-        # Create .kb directory if it doesn't exist
-        mkdir -p .kb
-        
-        # Add submodule
-        git submodule add $REPO_URL .kb/best-practices
-        
-        echo -e "${GREEN}✓ Submodule added at .kb/best-practices${NC}"
-        echo ""
-        echo "To update the knowledge base later, run:"
-        echo "  git submodule update --remote .kb/best-practices"
-        ;;
-        
-    2)
-        echo -e "\n${GREEN}Copying Templates...${NC}"
-        
-        # Create directories
-        mkdir -p .agent
-        mkdir -p .kiro
-        
-        # Download templates
-        echo "Downloading CLAUDE.md template..."
-        curl -sSL "$TEMPLATES_URL/CLAUDE.template.md" -o CLAUDE.md
-        
-        echo "Downloading .agent templates..."
-        curl -sSL "$TEMPLATES_URL/agent/instructions.template.md" -o .agent/instructions.md
-        curl -sSL "$TEMPLATES_URL/agent/config.template.json" -o .agent/config.json
-        
-        echo "Downloading .kiro template..."
-        curl -sSL "$TEMPLATES_URL/kiro/project.template.md" -o .kiro/project.md
-        
-        echo "Downloading .cursorrules template..."
-        curl -sSL "$TEMPLATES_URL/cursorrules.template" -o .cursorrules
-        
-        echo -e "${GREEN}✓ Templates copied${NC}"
-        echo ""
-        echo "Please edit the following files and replace placeholders:"
-        echo "  - CLAUDE.md"
-        echo "  - .agent/instructions.md"
-        echo "  - .agent/config.json"
-        echo "  - .kiro/project.md"
-        echo "  - .cursorrules"
-        ;;
-        
-    3)
-        echo -e "\n${GREEN}Adding References...${NC}"
-        
-        # Create or append to CLAUDE.md
-        if [ -f "CLAUDE.md" ]; then
-            echo "" >> CLAUDE.md
-            echo "## Best Practices Reference" >> CLAUDE.md
-            echo "" >> CLAUDE.md
-            echo "This project follows the [Programming Best Practices](https://github.com/dereknguyen269/programing-best-practices) knowledge base." >> CLAUDE.md
-            echo "" >> CLAUDE.md
-            echo "Key resources:" >> CLAUDE.md
-            echo "- Code Style: Check language-specific sections" >> CLAUDE.md
-            echo "- Security: API Security and DevSecOps sections" >> CLAUDE.md
-            echo "- Architecture: System Design section" >> CLAUDE.md
-            echo -e "${GREEN}✓ Added reference to existing CLAUDE.md${NC}"
-        else
-            echo "## Best Practices Reference" > CLAUDE.md
-            echo "" >> CLAUDE.md
-            echo "This project follows the [Programming Best Practices](https://github.com/dereknguyen269/programing-best-practices) knowledge base." >> CLAUDE.md
-            echo "" >> CLAUDE.md
-            echo "Key resources:" >> CLAUDE.md
-            echo "- Code Style: Check language-specific sections" >> CLAUDE.md
-            echo "- Security: API Security and DevSecOps sections" >> CLAUDE.md
-            echo "- Architecture: System Design section" >> CLAUDE.md
-            echo -e "${GREEN}✓ Created CLAUDE.md with reference${NC}"
-        fi
-        ;;
-        
-    *)
-        echo -e "${RED}Invalid option. Exiting.${NC}"
-        exit 1
-        ;;
-esac
-
-echo ""
-echo -e "${GREEN}=============================================="
-echo "  Setup Complete!"
-echo "==============================================${NC}"
-echo ""
-echo "Knowledge Base Repository:"
-echo "  $REPO_URL"
-echo ""
-echo "Documentation:"
-echo "  https://github.com/dereknguyen269/programing-best-practices/blob/main/docs/INTEGRATION.md"
+echo "  Docs: $REPO_URL"
 echo ""

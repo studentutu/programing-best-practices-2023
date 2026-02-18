@@ -95,8 +95,6 @@ The script will guide you through different setup options:
 ./scripts/quick-start.sh --category python
 ```
 
-📖 **For detailed documentation and troubleshooting**, see the [Quick Start Guide](./docs/QUICK_START_GUIDE.md)
-
 
 ---
 
@@ -164,11 +162,8 @@ The repository is now ready! Your AI coding editor will automatically detect:
 
 | AI Editor | Config File | Auto-Detected |
 |-----------|-------------|---------------|
-| **Claude Code** | `CLAUDE.md` + `skills/best-practices/` | ✅ |
+| **Claude Code** | `skills/best-practices/` | ✅ |
 | **Kiro** | `.kiro/steering/best-practices/` | ✅ |
-| **Antigravity** | `.agent/instructions.md` | ✅ |
-| **Cursor** | `.cursorrules` | ✅ |
-| **Windsurf** | `.windsurfrules` | ✅ |
 
 ---
 
@@ -179,8 +174,7 @@ After setup, your repository will look like:
 ```
 programing-best-practices/
 ├── README.md                   # Main knowledge base (curated links)
-├── CLAUDE.md                   # Claude Code instructions
-├── AGENTS.md                   # Universal AI agent instructions
+├── index.html                  # Web landing page
 ├── .claude-plugin/             # 🔌 Claude Code plugin manifest
 │   └── plugin.json
 ├── skills/                     # 🧠 Claude Code auto-invoked skills
@@ -188,25 +182,14 @@ programing-best-practices/
 │       ├── SKILL.md            # Skill instructions
 │       ├── data/               # CSV databases (resources, languages, categories)
 │       └── scripts/            # Search engine (core.py, search.py, generate_csv.py)
-├── commands/                   # ⚡ Claude Code slash commands
-│   ├── best-practices.md       # /best-practices [language]
-│   ├── review-code.md          # /review-code
-│   └── setup-standards.md      # /setup-standards [stack]
-├── .agent/                     # Antigravity config
-│   ├── config.json
-│   └── instructions.md
 ├── .kiro/                      # Kiro config
 │   ├── project.md
-│   └── steering/               # Kiro steering files
-│       └── best-practices/     # 🔍 BM25-powered search (installed via install-skill.py)
-├── .cursorrules                # Cursor AI rules
-├── .windsurfrules              # Windsurf AI rules
-├── content/                    # � Crawled content (after running crawler)
+│   └── steering/               # Kiro steering files (auto-included)
+│       └── best-practices/     # 🔍 BM25-powered search
+├── content/                    # 📄 Crawled content (after running crawler)
 │   ├── index.json              # Master index of all resources
 │   ├── metadata.yaml           # Crawl statistics
-│   ├── backend_development/    # Content organized by category
-│   ├── frontend_development/
-│   └── ...
+│   └── ...                     # Content organized by category
 ├── scripts/
 │   ├── crawler/                # 🕷️ Crawler tools
 │   │   ├── crawl.py            # Main crawler
@@ -214,12 +197,9 @@ programing-best-practices/
 │   │   ├── generate_summaries.py
 │   │   └── requirements.txt
 │   ├── install-skill.py        # 🔧 Install skill to any project (Claude/Kiro)
-│   └── setup-kb.sh             # Quick setup script
-├── templates/                  # 📋 Templates for your projects
-│   ├── CLAUDE.template.md
-│   ├── agent/
-│   ├── kiro/
-│   └── cursorrules.template
+│   ├── update.sh               # 🔄 Update resources + reinstall skill
+│   ├── setup-kb.sh             # ⚡ Integrate KB into an existing project
+│   └── quick-start.sh          # 🚀 First-time setup for this repo
 └── docs/
     └── INTEGRATION.md          # Integration guide
 ```
@@ -243,17 +223,30 @@ python3 scripts/crawler/search.py "security" --json
 
 ### BM25-Powered Search (via Skill)
 
-If you've installed the best-practices skill (via `install-skill.py`), you get a more powerful BM25 search:
+The best-practices skill installed at `.kiro/steering/best-practices/` provides more powerful BM25 search:
 
 ```bash
 # Full recommendation (resources + deep content)
-python3 skills/best-practices/scripts/search.py "ruby rails security" --recommend
+python3 .kiro/steering/best-practices/scripts/search.py "ruby rails security" --recommend
 
 # Search by language overview
-python3 skills/best-practices/scripts/search.py "go" --domain language
+python3 .kiro/steering/best-practices/scripts/search.py "go" --domain language
 
 # Deep search within crawled markdown files
-python3 skills/best-practices/scripts/search.py "design patterns" --content --lang python
+python3 .kiro/steering/best-practices/scripts/search.py "design patterns" --content --lang python
+```
+
+### Keeping Resources Up to Date
+
+```bash
+# Update all resources and reinstall the Kiro skill
+./scripts/update.sh
+
+# Update a specific category only
+./scripts/update.sh --category ruby
+
+# Regenerate CSVs and reinstall without re-crawling
+./scripts/update.sh --skip-crawl
 ```
 
 ---
@@ -299,21 +292,7 @@ cd your-project
 git submodule add https://github.com/dereknguyen269/programing-best-practices.git .kb/best-practices
 ```
 
-### Option 3: Copy Templates
-
-Download the templates from the [`/templates`](./templates) directory and customize for your project:
-
-| Template | Copy To | Purpose |
-|----------|---------|---------|
-| `CLAUDE.template.md` | `CLAUDE.md` | Claude Code |
-| `agent/instructions.template.md` | `.agent/instructions.md` | Antigravity |
-| `agent/config.template.json` | `.agent/config.json` | Antigravity |
-| `kiro/project.template.md` | `.kiro/project.md` | Kiro |
-| `cursorrules.template` | `.cursorrules` | Cursor |
-
-📖 **Full integration guide**: See [`docs/INTEGRATION.md`](./docs/INTEGRATION.md)
-
-### Option 4: Claude Code Plugin (Recommended for Claude Code users)
+### Option 3: Claude Code Plugin (Recommended for Claude Code users)
 
 Install directly as a Claude Code plugin for automatic best practices guidance:
 
@@ -338,7 +317,7 @@ Once installed, you get:
 The plugin includes a skill that Claude invokes automatically:
 - **best-practices** — Activated when writing or reviewing code in any of 30+ languages
 
-### Option 5: Install Skill with Auto-Crawl (Recommended for Kiro & Claude Code)
+### Option 4: Install Skill with Auto-Crawl (Recommended for Kiro & Claude Code)
 
 Install the BM25-powered best practices skill directly into any project. The installer automatically crawls content, generates searchable CSV databases, and copies the skill:
 
@@ -374,14 +353,14 @@ The installer runs a 4-step pipeline:
 Once installed, your AI editor can search best practices:
 
 ```bash
-# Search for recommendations
-python3 skills/best-practices/scripts/search.py "python style guide" --recommend
+# Search for recommendations (Kiro)
+python3 .kiro/steering/best-practices/scripts/search.py "python style guide" --recommend
 
 # Search by domain
-python3 skills/best-practices/scripts/search.py "react" --domain language
+python3 .kiro/steering/best-practices/scripts/search.py "react" --domain language
 
 # Deep search in crawled content
-python3 skills/best-practices/scripts/search.py "clean code" --content --lang javascript
+python3 .kiro/steering/best-practices/scripts/search.py "clean code" --content --lang javascript
 ```
 
 ---
