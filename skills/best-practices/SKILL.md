@@ -4,7 +4,7 @@ inclusion: auto
 
 # best-practices
 
-Searchable knowledge base of 152+ programming best practices across 30+ languages and frameworks. BM25-powered search over curated resources from industry leaders (Google, Airbnb, Uber, Mozilla, Shopify, OWASP).
+Searchable knowledge base of 170+ programming best practices across 35+ languages and frameworks. BM25-powered search over curated resources from industry leaders (Google, Airbnb, Uber, Mozilla, Microsoft, Shopify, OWASP, Anthropic, OpenAI).
 
 ## Prerequisites
 
@@ -78,7 +78,7 @@ content/web_backend/b8aad3894efa.md        → Python Code Style Guide
 
 | Domain | Use For | Example |
 |--------|---------|---------|
-| `resource` | All 152+ resources with metadata | `"python best practices"` |
+| `resource` | All 170+ resources with metadata | `"python best practices"` |
 | `language` | Language/tech overview with top resources | `"go"`, `"react"` |
 | `category` | Browse by category | `"frontend"`, `"security"` |
 
@@ -98,18 +98,19 @@ Results are tagged with authority:
 
 ## Coverage
 
-### Languages & Frameworks (30+)
+### Languages & Frameworks (35+)
 
 | Domain | Technologies |
 |--------|-------------|
-| Backend | Python, Ruby, Rails, PHP, Laravel, Node.js, NestJS, Go, Java, Kotlin, Scala, C#, Elixir |
-| Frontend | JavaScript, TypeScript, HTML, CSS, SASS, React, Vue, Angular, Next.js, Nuxt |
+| Backend | Python, Ruby, Rails, PHP, Laravel, Node.js, NestJS, Go, Java, Kotlin, Scala, C#, Elixir, tRPC, Deno, Bun |
+| Frontend | JavaScript, TypeScript, HTML, CSS, SASS, React, Vue, Angular, Next.js, Nuxt, Svelte, Solid.js |
 | Systems | C, C++, Rust |
 | Mobile | Swift, Objective-C, Flutter, Dart, React Native |
-| Database | SQL, PostgreSQL, MySQL, NoSQL/MongoDB |
-| DevOps | Bash, AWS, Microservices, Docker |
-| Security | OWASP, API Security, DevSecOps |
-| AI/ML | MLOps, LLM, Responsible AI |
+| Database | SQL, PostgreSQL, MySQL, NoSQL/MongoDB, Prisma, Drizzle ORM |
+| DevOps | Bash, AWS, Microservices, Docker, Kubernetes |
+| Security | OWASP, API Security, DevSecOps, LLM Security |
+| AI/ML | MLOps, LLM, Prompt Engineering, AI Agents, Responsible AI |
+| Tools | Code Review, Git, Biome, Turborepo, Nx |
 
 ### Featured Resources (Must-Know)
 
@@ -150,6 +151,6 @@ python3 skills/best-practices/scripts/generate_csv.py
 ```
 
 This reads `content/index.json` and produces:
-- `data/resources.csv` — All 152+ resources with metadata
+- `data/resources.csv` — All 170+ resources with metadata
 - `data/languages.csv` — Aggregated by language/technology
 - `data/categories.csv` — Aggregated by category

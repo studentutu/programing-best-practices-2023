@@ -411,7 +411,6 @@ Here are some standout resources that every developer should know:
 * [PHP](#php-best-practices)
 * [Laravel](#laravel-best-practices)
 * [NestJS](#nestjs-best-practices)
-* [GraphQL](#graphql-best-practices)
 
 #### Functional & Specialized
 * [Elixir](#elixir-best-practices)
@@ -437,17 +436,33 @@ Here are some standout resources that every developer should know:
 * [Angular](#angular-best-practices)
 * [Next.js](#nextjs-best-practices)
 * [Nuxt](#nuxt-best-practices)
+* [Svelte](#svelte-best-practices)
+* [Solid.js](#solidjs-best-practices)
 
 #### Performance
 * [Frontend Performance](#frontend-performance-best-practices)
 
-#### SQL Databases
+### 🔹 Backend Runtimes & Communication
+
+#### Modern Runtimes
+* [Deno](#deno-best-practices)
+* [Bun](#bun-best-practices)
+
+#### API Layer
+* [GraphQL](#graphql-best-practices)
+* [tRPC](#trpc-best-practices)
+
+### 🔹 Database & Data
 * [SQL](#sql-best-practices)
 * [PostgreSQL](#postgresql-best-practices)
 * [MySQL](#mysql-best-practices)
 
 #### NoSQL & Big Data
 * [NoSQL](#nosql-best-practices)
+
+#### ORMs
+* [Prisma](#prisma-best-practices)
+* [Drizzle ORM](#drizzle-orm-best-practices)
 
 ### 🔹 Mobile Development
 * [Flutter](#flutter-best-practices)
@@ -479,6 +494,13 @@ Here are some standout resources that every developer should know:
 
 #### Scripting & Automation
 * [Bash](#bash-script-best-practices)
+
+#### Linting & Formatting
+* [Biome](#biome-best-practices)
+
+#### Monorepo
+* [Turborepo](#turborepo-best-practices)
+* [Nx](#nx-best-practices)
 
 #### Testing
 * [General Testing](#general-testing-best-practices)
@@ -527,11 +549,12 @@ Here are some standout resources that every developer should know:
 
 ### ☕ Java Best Practices
 
-* [Java Best Practices](https://github.com/in28minutes/java-best-practices) — *@in28minutes*
-* [Selenium Best Practices](https://github.com/previousdeveloper/Selenium-best-practices) — *@previousdeveloper*
-* [Java Style Guide (Ray Wenderlich)](https://github.com/raywenderlich/java-style-guide) — *@raywenderlich*
+* [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) — 🏢 *Google*
+* [Java Best Practices (Oracle)](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html) — 🏢 *Oracle Official*
+* [Effective Java (Joshua Bloch)](https://www.oreilly.com/library/view/effective-java-3rd/9780134686097/) — 🏢 *Industry Standard*
+* [Java Coding Best Practices (Baeldung)](https://www.baeldung.com/java-coding-standards-and-best-practices) — *@baeldung*
 * [Java Best Practices Guide](https://howtodoinjava.com/java-best-practices/)
-* [30 Java Programming Tips for Beginners](https://www.javacodegeeks.com/2015/06/java-programming-tips-best-practices-beginners.html)
+* [Java Performance Tuning](https://www.oracle.com/java/technologies/performance-tuning.html) — 🏢 *Oracle Official*
 
 ---
 
@@ -561,25 +584,25 @@ Here are some standout resources that every developer should know:
 
 ### 🟢 Node.js Best Practices
 
-* [Node.js Style Guide](https://github.com/felixge/node-style-guide) — *@felixge*
+* [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) — 🏢 *@goldbergyoni (community standard)*
+* [Node.js Security Best Practices](https://nodejs.org/en/docs/guides/security/) — 🏢 *Node.js Official*
+* [Node.js Style Guide (Airbnb fork)](https://github.com/airbnb/javascript) — 🏢 *Airbnb*
+* [Node.js Performance Best Practices](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) — 🏢 *Node.js Official*
+* [Express.js Best Practices (Official)](https://expressjs.com/en/advanced/best-practice-performance.html) — 🏢 *Express Official*
 * [RisingStack Node.js Style Guide](https://github.com/RisingStack/node-style-guide) — *@RisingStack*
-* [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) — *@goldbergyoni*
-* [Node.js Security Best Practices](https://nodejs.org/en/docs/guides/security/) — *Node.js Official*
 
 ---
 
 ### 🐍 Python Best Practices
 
-* [Python Best Practices – Become an Expert](https://data-flair.training/blogs/python-best-practices/)
-* [Best of the Best Practices (BOBP) Guide](https://gist.github.com/sloria/7001839) — *@sloria*
-* [Python Best Practices (Toptal)](https://www.toptal.com/python/tips-and-practices)
-* [Python Code Style Guide](https://docs.python-guide.org/writing/style/)
-* [11 Tips to Write Better Python Code](https://www.python-engineer.com/posts/11-tips-to-write-better-python-code/)
-* [Python Tutorial: Best Practices & Mistakes](https://jaxenter.com/python-tutorial-best-practices-145959.html)
-* [Design Patterns in Python](https://refactoring.guru/design-patterns/python) — *Refactoring.Guru*
-* [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/) — *Python Official*
-* [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html) — *@google*
+* [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/) — 🏢 *Python Official*
+* [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html) — 🏢 *Google*
 * [Effective Python (Brett Slatkin)](https://effectivepython.com/)
+* [Best of the Best Practices (BOBP) Guide](https://gist.github.com/sloria/7001839) — *@sloria*
+* [The Hitchhiker's Guide to Python](https://docs.python-guide.org/) — *@kennethreitz*
+* [Design Patterns in Python](https://refactoring.guru/design-patterns/python) — 🏢 *Refactoring.Guru*
+* [Python Best Practices (Toptal)](https://www.toptal.com/python/tips-and-practices)
+* [Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/)
 
 ---
 
@@ -635,15 +658,38 @@ Here are some standout resources that every developer should know:
 ### 🟣 NestJS Best Practices
 
 * [Best NestJS Practices and Advanced Techniques](https://dev.to/drbenzene/best-nestjs-practices-and-advanced-techniques-9m0)
+* [NestJS Official Documentation](https://docs.nestjs.com/) — 🏢 *NestJS Official*
 
 ---
 
 ### 🔷 GraphQL Best Practices
 
-* [GraphQL Best Practices (Official)](https://graphql.org/learn/best-practices/) — *GraphQL Official*
+* [GraphQL Best Practices (Official)](https://graphql.org/learn/best-practices/) — 🏢 *GraphQL Official*
 * [Production Ready GraphQL](https://book.productionreadygraphql.com/)
 * [GraphQL Security Best Practices](https://escape.tech/blog/graphql-security-best-practices-guide/)
 * [Awesome GraphQL](https://github.com/chentsulin/awesome-graphql) — *@chentsulin*
+
+### 🔌 tRPC Best Practices
+
+* [tRPC Best Practices (Official)](https://trpc.io/docs/server/router) — 🏢 *tRPC Official*
+* [tRPC React Query Integration](https://trpc.io/docs/client/react) — 🏢 *tRPC Official*
+* [tRPC Security Best Practices](https://trpc.io/docs/server/merging-routers) — 🏢 *tRPC Official*
+
+## Modern Runtimes
+
+### 🦕 Deno Best Practices
+
+* [Deno Best Practices (Official)](https://docs.deno.com/runtime/fundamentals/best-practices/) — 🏢 *Deno Official*
+* [Deno Style Guide](https://docs.deno.com/runtime/fundamentals/style-guide/) — 🏢 *Deno Official*
+* [Deno Standard Library](https://jsr.io/@std) — 🏢 *Deno Official*
+* [Deno Security & Permissions](https://docs.deno.com/runtime/fundamentals/security/) — 🏢 *Deno Official*
+
+### 🥟 Bun Best Practices
+
+* [Bun Best Practices (Official)](https://bun.sh/docs/runtime/best-practices) — 🏢 *Bun Official*
+* [Bun Runtime Guide](https://bun.sh/docs/runtime) — 🏢 *Bun Official*
+* [Bun Package Manager](https://bun.sh/docs/install) — 🏢 *Bun Official*
+* [Bun Test Runner](https://bun.sh/docs/cli/test) — 🏢 *Bun Official*
 
 ---
 
@@ -780,19 +826,21 @@ Here are some standout resources that every developer should know:
 
 ### 🖼️ Vue Best Practices
 
-* [Tips & Best Practices (Vue 0.12)](https://012.vuejs.org/guide/best-practices.html)
-* [10 Good Practices for Large Vue.js Projects](https://www.telerik.com/blogs/10-good-practices-building-maintaining-large-vuejs-projects)
+* [Vue.js Style Guide (Official)](https://vuejs.org/style-guide/) — 🏢 *Vue.js Official*
+* [Vue 3 Best Practices (Official)](https://vuejs.org/guide/best-practices/performance.html) — 🏢 *Vue.js Official*
+* [Vue 3 Composition API Guide](https://vuejs.org/guide/extras/composition-api-faq) — 🏢 *Vue.js Official*
 * [12 VueJS Best Practices for Pro Developers](https://learnvue.co/2020/01/12-vuejs-best-practices-for-pro-developers/)
-* [Vue.js Style Guide (Official)](https://vuejs.org/style-guide/) — *Vue.js Official*
+* [10 Good Practices for Large Vue.js Projects](https://www.telerik.com/blogs/10-good-practices-building-maintaining-large-vuejs-projects)
 * [Vue Best Practices (Awesome Vue)](https://github.com/vuejs/awesome-vue) — *@vuejs*
 
 ---
 
 ### 🅰️ Angular Best Practices
 
-* [AngularJS Style Guide](https://github.com/mgechev/angularjs-style-guide) — *@mgechev*
-* [Angular 2 Style Guide](https://github.com/mgechev/angular2-style-guide) — *@mgechev*
-* [Angular.js Advanced Design Patterns](https://github.com/trochette/Angular-Design-Patterns-Best-Practices) — *@trochette*
+* [Angular Style Guide (Official)](https://angular.dev/style-guide) — 🏢 *Angular Official*
+* [Angular Coding Style Guide](https://angular.dev/guide/styleguide) — 🏢 *Angular Official*
+* [Angular Best Practices for Enterprise Apps](https://www.angulararchitects.io/en/blog/) — *angular architects*
+* [Angular Performance Checklist](https://github.com/mgechev/angular-performance-checklist) — *@mgechev*
 
 ---
 
@@ -806,7 +854,23 @@ Here are some standout resources that every developer should know:
 
 ### ⚡ Nuxt Best Practices
 
+* [Nuxt Style Guide (Official)](https://nuxt.com/docs/guide/conventions) — 🏢 *Nuxt Official*
 * [10 Nuxt Best Practices](https://climbtheladder.com/10-nuxt-best-practices/)
+* [Nuxt 3 Best Practices for Production](https://masteringnuxt.com/blog/nuxt-3-best-practices)
+
+### 🧩 Svelte Best Practices
+
+* [Svelte Best Practices (Official)](https://svelte.dev/docs/svelte/guide) — 🏢 *Svelte Official*
+* [Svelte Style Guide](https://svelte.dev/docs/svelte/typescript) — 🏢 *Svelte Official*
+* [SvelteKit Best Practices (Official)](https://svelte.dev/docs/kit/best-practices) — 🏢 *SvelteKit Official*
+* [Rules of Svelte](https://svelte.dev/docs/svelte/rules) — 🏢 *Svelte Official*
+* [Svelte Performance](https://svelte.dev/docs/svelte/performance) — 🏢 *Svelte Official*
+
+### 🔵 Solid.js Best Practices
+
+* [Solid.js Best Practices (Official)](https://docs.solidjs.com/guides/best-practices) — 🏢 *SolidJS Official*
+* [Solid.js Style Guide](https://docs.solidjs.com/guides/style-guide) — 🏢 *SolidJS Official*
+* [SolidStart Best Practices](https://docs.solidjs.com/solid-start/best-practises) — 🏢 *SolidJS Official*
 
 ---
 
@@ -857,6 +921,20 @@ Here are some standout resources that every developer should know:
 * [MongoDB Schema Design Best Practices](https://www.mongodb.com/developer/products/mongodb/mongodb-schema-design-best-practices/)
 * [11 MongoDB Security Features & Best Practices](https://satoricyber.com/mongodb-security/11-mongodb-security-features-and-best-practices/)
 
+### 🗄️ Prisma Best Practices
+
+* [Prisma Best Practices (Official)](https://www.prisma.io/docs/orm/prisma-client/queries/crud) — 🏢 *Prisma Official*
+* [Prisma Data Modeling Guide](https://www.prisma.io/docs/orm/prisma-schema/data-model) — 🏢 *Prisma Official*
+* [Prisma Performance Optimization](https://www.prisma.io/docs/orm/prisma-client/performance) — 🏢 *Prisma Official*
+* [Prisma Security Best Practices](https://www.prisma.io/docs/orm/prisma-client/deployment) — 🏢 *Prisma Official*
+
+### ☁️ Drizzle ORM Best Practices
+
+* [Drizzle ORM Best Practices (Official)](https://orm.drizzle.team/docs/guides) — 🏢 *Drizzle Official*
+* [Drizzle Schema Design](https://orm.drizzle.team/docs/sql-schema-declaration) — 🏢 *Drizzle Official*
+* [Drizzle Relations & Joins](https://orm.drizzle.team/docs/rqb) — 🏢 *Drizzle Official*
+* [Drizzle Production Deployment](https://orm.drizzle.team/docs/migrations) — 🏢 *Drizzle Official*
+
 ---
 
 # 📱 Mobile Development
@@ -890,9 +968,11 @@ Here are some standout resources that every developer should know:
 
 ### 📦 Microservices & Cloud-Native Best Practices
 
-* [12 Factors for Building Cloud-Native Apps](https://12factor.net/)
-* [Microservices Best Practices (Microsoft)](https://learn.microsoft.com/en-us/azure/architecture/microservices/)
-* [Cloud-Native Patterns (CNCF)](https://github.com/cncf/presentations)
+* [12 Factors for Building Cloud-Native Apps](https://12factor.net/) — 🏢 *Standard*
+* [Microservices Best Practices (Microsoft)](https://learn.microsoft.com/en-us/azure/architecture/microservices/) — 🏢 *Microsoft*
+* [Microservices Patterns (Chris Richardson)](https://microservices.io/patterns/index.html) — 🏢 *@crichardson*
+* [Cloud-Native Patterns (CNCF)](https://github.com/cncf/presentations) — 🏢 *CNCF*
+* [Beyond the 12-Factor App (Heroku)](https://www.heroku.com/podcasts/codeish/72-beyond-the-12-factor-app) — *Heroku*
 
 ---
 
@@ -918,8 +998,11 @@ Here are some standout resources that every developer should know:
 
 ### 🔐 API Security Best Practices
 
-* [API Security Best Practices (Roadmap.sh)](https://roadmap.sh/best-practices/api-security)
-* [API Security Checklist](https://github.com/shieldfy/API-Security-Checklist)
+* [API Security Best Practices (Roadmap.sh)](https://roadmap.sh/best-practices/api-security) — 🏢 *Roadmap.sh*
+* [API Security Checklist](https://github.com/shieldfy/API-Security-Checklist) — *@shieldfy*
+* [OWASP API Security Top 10](https://owasp.org/API-Security/editions/2023/en/0x00-header/) — 🏢 *OWASP*
+* [JWT Best Practices (Auth0)](https://auth0.com/blog/ten-things-you-should-know-about-tokens/) — 🏢 *Auth0*
+* [REST API Security Best Practices (Microsoft)](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) — 🏢 *Microsoft*
 
 ---
 
@@ -935,27 +1018,32 @@ Here are some standout resources that every developer should know:
 
 ## 🤖 AI/ML Engineering Best Practices
 
-* [MLOps Best Practices (Google Cloud)](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning)
-* [Responsible AI Practices (Google)](https://ai.google/responsibilities/responsible-ai-practices/)
-* [Best Practices for LLM Applications](https://www.promptingguide.ai/)
-* [IBM Data Science – Best Practices](https://github.com/IBM/data-science-best-practices)
-* [AI Best Practices (XenonStack Blog)](https://www.xenonstack.com/blog/ai-best-practices)
-* [Best Practices for Deep Learning in Julia (FastAI.jl)](https://github.com/FluxML/FastAI.jl)
-* [ETL Best Practices with Airflow](https://github.com/gtoonstra/etl-with-airflow)
+* [MLOps Best Practices (Google Cloud)](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning) — 🏢 *Google Cloud*
+* [Responsible AI Practices (Google)](https://ai.google/responsibilities/responsible-ai-practices/) — 🏢 *Google*
+* [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) — 🏢 *Anthropic Official*
+* [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) — 🏢 *OpenAI Official*
+* [LLM Application Best Practices (Anthropic)](https://docs.anthropic.com/en/docs/build-with-claude/develop-with-claude) — 🏢 *Anthropic Official*
+* [IBM Data Science – Best Practices](https://github.com/IBM/data-science-best-practices) — *@IBM*
+* [ETL Best Practices with Airflow](https://github.com/gtoonstra/etl-with-airflow) — *@gtoonstra*
+* [dbt Best Practices Guide](https://docs.getdbt.com/guides/best-practices) — 🏢 *dbt Official*
+* [Structuring AI Agents (Anthropic)](https://docs.anthropic.com/en/docs/build-with-claude/agentic) — 🏢 *Anthropic Official*
+* [Evaluation for LLM Apps (LangSmith)](https://docs.smith.langchain.com/evaluation) — *LangChain*
+* [LLM Security (OWASP Top 10 for LLM)](https://genai.owasp.org/) — 🏢 *OWASP*
 
 ---
 
-## 🤖 AI Tools for Developers
+### 🤖 AI Tools for Developers
 
-* [9 of the Best AI Tools for Software Developers in 2024](https://www.stepsize.com/blog/best-ai-tools-for-software-developers)
-* [The Best AI Tools for Developers in 2024](https://daily.dev/blog/the-best-ai-tools-for-developers-in-2024)
+* [Effective AI Pair Programming (GitHub Copilot)](https://github.com/features/copilot) — 🏢 *GitHub/Microsoft*
+* [Cursor AI Best Practices](https://docs.cursor.com/get-started/best-practices) — 🏢 *Cursor Official*
+* [Claude Code Best Practices](https://docs.anthropic.com/en/docs/claude-code) — 🏢 *Anthropic Official*
+* [DevOps with AI Agents](https://docs.anthropic.com/en/docs/agents-and-tools) — 🏢 *Anthropic Official*
 * [Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools) — *@mahseema*
-* [Awesome AI-Powered Developer Tools](https://github.com/jamesmurdza/awesome-ai-devtools) — *@jamesmurdza*
-* [Best Practices for Coding with AI (2024)](https://blog.codacy.com/best-practices-for-coding-with-ai)
-* [AI Tools for Developers: 5 Types of Tools & How to Choose](https://swimm.io/learn/ai-tools-for-developers/ai-tools-for-developers-5-types-of-tools-and-how-to-choose)
+* [Best Practices for Coding with AI](https://blog.codacy.com/best-practices-for-coding-with-ai)
 * [The Do's and Don'ts of Using AI in Software Development](https://www.kodeco.com/41989083-the-do-s-and-don-ts-of-using-ai-in-software-development)
 * [10 Best Practices for Secure AI Development](https://snyk.io/blog/10-best-practices-for-securely-developing-with-ai/)
-* [AI Hacks to Maximize Productivity in 2024](https://www.smarttrick.org/post/work-smarter-not-harder-ai-hacks-to-maximize-your-productivity-in-2024)
+* [Evaluating AI Code Generators](https://martinfowler.com/articles/2024-evaluating-code-gen-tools.html) — *@martinfowler*
+* [AI Coding Guidelines (Google)](https://google.github.io/styleguide/) — 🏢 *Google*
 
 ---
 
@@ -997,6 +1085,31 @@ Here are some standout resources that every developer should know:
 * [progrium/bashstyle](https://github.com/progrium/bashstyle)
 * [Best Practices for Bash Scripts](https://hyperskill.org/learn/step/19230)
 * [Best Practices for Writing Bash Scripts](https://expeditor.chef.io/docs/patterns/bash-scripts/)
+
+### 🧹 Linting & Formatting
+
+#### Biome Best Practices
+
+* [Biome Getting Started](https://biomejs.dev/guides/getting-started/) — 🏢 *Biome Official*
+* [Biome Configuration Guide](https://biomejs.dev/reference/configuration/) — 🏢 *Biome Official*
+* [Biome Linter Rules](https://biomejs.dev/linter/rules/) — 🏢 *Biome Official*
+* [Biome vs ESLint/Prettier Migration](https://biomejs.dev/guides/convert-eslint-prettier/) — 🏢 *Biome Official*
+
+### 🏗️ Monorepo Best Practices
+
+#### Turborepo Best Practices
+
+* [Turborepo Getting Started](https://turbo.build/repo/docs) — 🏢 *Vercel Official*
+* [Turborepo Configuration Guide](https://turbo.build/repo/docs/reference/configuration) — 🏢 *Vercel Official*
+* [Turborepo Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) — 🏢 *Vercel Official*
+* [Migrating to Turborepo](https://turbo.build/repo/docs/guides/migration) — 🏢 *Vercel Official*
+
+#### Nx Best Practices
+
+* [Nx Getting Started](https://nx.dev/getting-started/intro) — 🏢 *Nx Official*
+* [Nx Best Practices Guide](https://nx.dev/recipes/enforce-module-boundaries) — 🏢 *Nx Official*
+* [Nx Monorepo Patterns](https://nx.dev/concepts/decisions/architecture) — 🏢 *Nx Official*
+* [Nx vs Turborepo Trade-offs](https://nx.dev/resources/migration/turbo) — 🏢 *Nx Official*
 
 ---
 
@@ -1043,18 +1156,21 @@ Here are some standout resources that every developer should know:
 Stay updated with the latest additions to this repository:
 
 ### Recent Updates
-- ✅ **Enhanced README** — Added quick navigation, featured resources, and usage guides
-- ✅ **AI/ML Section** — Expanded with LLM best practices and MLOps resources
-- ✅ **Security Focus** — Added DevSecOps and API security best practices
-- ✅ **Performance Guides** — New frontend performance and scalability resources
-- ✅ **Modern Frameworks** — Added Next.js, Nuxt, and NestJS best practices
+- ✅ **Svelte / Solid.js** — New frontend framework sections with official best practices
+- ✅ **Deno / Bun** — Modern runtime best practices (permissions, std lib, testing)
+- ✅ **Prisma / Drizzle ORM** — ORM design, performance, and deployment guides
+- ✅ **tRPC** — Type-safe API layer best practices
+- ✅ **Biome** — Next-gen linter/formatter replacing ESLint/Prettier
+- ✅ **Turborepo / Nx** — Monorepo architecture and caching patterns
+- ✅ **Angular** — Updated to modern Angular v19 official guides (replaced AngularJS)
+- ✅ **AI/ML Section** — Overhauled with Anthropic/OpenAI prompt engineering, AI agents, OWASP LLM security, Copilot/Cursor/Claude Code guides
+- ✅ **Quality Badges** — 🏢 industry-leader badges added to official resources
 
 ### Coming Soon
 - 🔜 **Video Tutorials** — Curated video resources for visual learners
 - 🔜 **Code Examples** — Practical code snippets demonstrating best practices
 - 🔜 **Interactive Checklists** — Ready-to-use checklists for code reviews
-- 🔜 **Language Comparison** — Side-by-side best practices across languages
-- 🔜 **Community Picks** — Top-voted resources from contributors
+- 🔜 **Zig / Gleam** — New languages gaining traction
 
 ---
 
