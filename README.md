@@ -1204,7 +1204,7 @@ A huge thank you to all our contributors! 🙏
 
 # 📈 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=dereknguyen269/programing-best-practices&type=Date)](https://star-history.com/#dereknguyen269/programing-best-practices&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=dereknguyen269/programing-best-practices&type=Date)](https://star-history.dera.page/#dereknguyen269/programing-best-practices&Date)
 
 ---
 
