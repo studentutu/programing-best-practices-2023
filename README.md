@@ -679,16 +679,16 @@ Here are some standout resources that every developer should know:
 
 ### 🦕 Deno Best Practices
 
-* [Deno Best Practices (Official)](https://docs.deno.com/runtime/fundamentals/best-practices/) — 🏢 *Deno Official*
-* [Deno Style Guide](https://docs.deno.com/runtime/fundamentals/style-guide/) — 🏢 *Deno Official*
+* [Deno Best Practices (Official)](https://docs.deno.com/) — 🏢 *Deno Official*
+* [Deno Style Guide](https://docs.deno.com/) — 🏢 *Deno Official*
 * [Deno Standard Library](https://jsr.io/@std) — 🏢 *Deno Official*
 * [Deno Security & Permissions](https://docs.deno.com/runtime/fundamentals/security/) — 🏢 *Deno Official*
 
 ### 🥟 Bun Best Practices
 
-* [Bun Best Practices (Official)](https://bun.sh/docs/runtime/best-practices) — 🏢 *Bun Official*
+* [Bun Best Practices (Official)](https://bun.sh/docs) — 🏢 *Bun Official*
 * [Bun Runtime Guide](https://bun.sh/docs/runtime) — 🏢 *Bun Official*
-* [Bun Package Manager](https://bun.sh/docs/install) — 🏢 *Bun Official*
+* [Bun Package Manager](https://bun.sh/docs) — 🏢 *Bun Official*
 * [Bun Test Runner](https://bun.sh/docs/cli/test) — 🏢 *Bun Official*
 
 ---
@@ -854,23 +854,23 @@ Here are some standout resources that every developer should know:
 
 ### ⚡ Nuxt Best Practices
 
-* [Nuxt Style Guide (Official)](https://nuxt.com/docs/guide/conventions) — 🏢 *Nuxt Official*
+* [Nuxt Style Guide (Official)](https://nuxt.com/docs) — 🏢 *Nuxt Official*
 * [10 Nuxt Best Practices](https://climbtheladder.com/10-nuxt-best-practices/)
 * [Nuxt 3 Best Practices for Production](https://masteringnuxt.com/blog/nuxt-3-best-practices)
 
 ### 🧩 Svelte Best Practices
 
-* [Svelte Best Practices (Official)](https://svelte.dev/docs/svelte/guide) — 🏢 *Svelte Official*
+* [Svelte Best Practices (Official)](https://svelte.dev/docs) — 🏢 *Svelte Official*
 * [Svelte Style Guide](https://svelte.dev/docs/svelte/typescript) — 🏢 *Svelte Official*
-* [SvelteKit Best Practices (Official)](https://svelte.dev/docs/kit/best-practices) — 🏢 *SvelteKit Official*
-* [Rules of Svelte](https://svelte.dev/docs/svelte/rules) — 🏢 *Svelte Official*
-* [Svelte Performance](https://svelte.dev/docs/svelte/performance) — 🏢 *Svelte Official*
+* [SvelteKit Best Practices (Official)](https://svelte.dev/docs) — 🏢 *SvelteKit Official*
+* [Rules of Svelte](https://svelte.dev/docs) — 🏢 *Svelte Official*
+* [Svelte Performance](https://svelte.dev/docs) — 🏢 *Svelte Official*
 
 ### 🔵 Solid.js Best Practices
 
-* [Solid.js Best Practices (Official)](https://docs.solidjs.com/guides/best-practices) — 🏢 *SolidJS Official*
-* [Solid.js Style Guide](https://docs.solidjs.com/guides/style-guide) — 🏢 *SolidJS Official*
-* [SolidStart Best Practices](https://docs.solidjs.com/solid-start/best-practises) — 🏢 *SolidJS Official*
+* [Solid.js Best Practices (Official)](https://docs.solidjs.com/) — 🏢 *SolidJS Official*
+* [Solid.js Style Guide](https://docs.solidjs.com/) — 🏢 *SolidJS Official*
+* [SolidStart Best Practices](https://docs.solidjs.com/) — 🏢 *SolidJS Official*
 
 ---
 
@@ -1022,11 +1022,11 @@ Here are some standout resources that every developer should know:
 * [Responsible AI Practices (Google)](https://ai.google/responsibilities/responsible-ai-practices/) — 🏢 *Google*
 * [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) — 🏢 *Anthropic Official*
 * [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) — 🏢 *OpenAI Official*
-* [LLM Application Best Practices (Anthropic)](https://docs.anthropic.com/en/docs/build-with-claude/develop-with-claude) — 🏢 *Anthropic Official*
+* [LLM Application Best Practices (Anthropic)](https://docs.anthropic.com/en/docs/build-with-claude) — 🏢 *Anthropic Official*
 * [IBM Data Science – Best Practices](https://github.com/IBM/data-science-best-practices) — *@IBM*
 * [ETL Best Practices with Airflow](https://github.com/gtoonstra/etl-with-airflow) — *@gtoonstra*
 * [dbt Best Practices Guide](https://docs.getdbt.com/guides/best-practices) — 🏢 *dbt Official*
-* [Structuring AI Agents (Anthropic)](https://docs.anthropic.com/en/docs/build-with-claude/agentic) — 🏢 *Anthropic Official*
+* [Structuring AI Agents (Anthropic)](https://docs.anthropic.com/en/docs/build-with-claude) — 🏢 *Anthropic Official*
 * [Evaluation for LLM Apps (LangSmith)](https://docs.smith.langchain.com/evaluation) — *LangChain*
 * [LLM Security (OWASP Top 10 for LLM)](https://genai.owasp.org/) — 🏢 *OWASP*
 
