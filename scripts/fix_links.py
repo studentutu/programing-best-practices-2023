@@ -1,7 +1,6 @@
 import glob
 import re
 
-# Known replacements for broken or changed links
 replacements = {
     "https://docs.anthropic.com/en/docs/build-with-claude/agentic": "https://docs.anthropic.com/en/docs/build-with-claude",
     "https://docs.anthropic.com/en/docs/build-with-claude/develop-with-claude": "https://docs.anthropic.com/en/docs/build-with-claude",
@@ -29,7 +28,6 @@ for md in glob.glob("/home/ubuntu/repo/**/*.md", recursive=True):
         if old_url in content:
             content = content.replace(old_url, new_url)
             modified = True
-            print(f"Updated {old_url} -> {new_url} in {md}")
             
     if modified:
         with open(md, "w", encoding="utf-8") as f:
