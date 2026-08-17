@@ -13,7 +13,7 @@ git checkout master
 git pull origin master --ff-only
 
 # 2. Create a unique maintenance branch
-BRANCH_NAME="chore/weekly-maintenance-$(date +%Y%m%d%H%M)"
+BRANCH_NAME="chore/weekly-maintenance-$(date +%Y%m%d%H%M%S)"
 git checkout -b "$BRANCH_NAME"
 
 echo "Created/Switched to branch: $BRANCH_NAME"
